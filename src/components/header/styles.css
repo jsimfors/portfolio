@@ -1,0 +1,29 @@
+.header-container {
+    background-color: #131313;
+    padding: 60px;
+    color: #F7FFF7;
+    font-size: 21px;
+    font-weight: 300;
+    position: relative;
+    cursor: url(../../imgs/cursor_s.png), pointer;
+
+  }
+
+  .header-container #nameimg {
+      max-width: 90%;
+  }
+
+  .header-container #barsimg {
+    position: absolute;
+    top: -140px;
+    right: -90px;
+}
+
+.header-container #headertext {
+    padding-top: 50px;
+}
+
+.header-container .link-meny {
+    text-align: center;
+    margin-top: 40px;
+}

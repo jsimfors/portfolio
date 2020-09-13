@@ -1,0 +1,14 @@
+.work-container {
+    background-color: #131313;
+    padding-top: 20px;
+    color: #F7FFF7;
+    font-size: 28px;
+    font-weight: 300;
+    -webkit-box-shadow: inset 0px 0px 34px 4px rgba(0,0,0,1);
+    -moz-box-shadow: inset 0px 0px 34px 4px rgba(0,0,0,1);
+    box-shadow: inset 0px 0px 34px 4px rgba(0,0,0,1);
+  }
+
+.work-container #backimg {
+    opacity: 0.6;
+}
