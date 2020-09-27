@@ -2,10 +2,12 @@ import React from 'react'
 import "./styles.css"
 import profpic from "../../imgs/profpic_1.jpg"
 import { Row, Col} from 'react-bootstrap';
+import Section from "../sections";
+import dummyText from "../dummyText";
 
 function About() {
 return (
-    <div className="about-container">
+    <div className="about-container" id="section2">
         <Row>
             <Col sm={{ span: 3, offset: 2 }}>
                 <img src={profpic} alt="profpic"/>

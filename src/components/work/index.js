@@ -3,14 +3,11 @@ import "./styles.css"
 import pattern from "../../imgs/pattern.png"
 import { Row, Col} from 'react-bootstrap';
 
+
 function Work() {
 return (
-    <div className="work-container">
-        <ul>
-            <li>Job 1</li>
-            <li>Job 2</li>
-            <li>Job 3</li>
-        </ul>
+    <div className="work-container" id="section1">
+        <h5>PREVIOUS WORK </h5>
         <img src={pattern} alt="pattern" id="backimg"/>
     </div>
 )
