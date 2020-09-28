@@ -14,6 +14,7 @@ return (
         <div className="work-container-inner">
             <h3>PREVIOUS WORK </h3>
             <Collapsible trigger="DEVELOPMENT" open="true">
+                
                 <Project 
                     title="Pensionskollen"
                     subtitle="SPP Sandbox Summer Internship"
@@ -47,7 +48,28 @@ return (
                     link="https://i.insider.com/5d375f4ba13c950575539e04?width=1100&format=jpeg&auto=webp"
                 />
             </Collapsible>
-            <h6>GRAPHIC DESIGN</h6>
+            <Collapsible trigger="MATH" open="true">
+            <Project 
+                    title="Pensionskollen"
+                    subtitle="SPP Sandbox Summer Internship"
+                    img="https://i.insider.com/5d375f4ba13c950575539e04?width=1100&format=jpeg&auto=webp"
+                    info="Front-end development in React, Typescript and Less. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id nibh tortor id aliquet. Sed lectus vestibulum mattis ullamcorper velit sed. Nec nam aliquam sem et tortor. Elit eget gravida cum sociis natoque. 
+                    Nisi est sit amet facilisis."
+                    link="https://i.insider.com/5d375f4ba13c950575539e04?width=1100&format=jpeg&auto=webp"
+                />
+            </Collapsible>
+
+            <Collapsible trigger="GRAPHIC DESIGN" open="true">
+            <Project 
+                    title="Pensionskollen"
+                    subtitle="SPP Sandbox Summer Internship"
+                    img="https://i.insider.com/5d375f4ba13c950575539e04?width=1100&format=jpeg&auto=webp"
+                    info="Front-end development in React, Typescript and Less. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id nibh tortor id aliquet. Sed lectus vestibulum mattis ullamcorper velit sed. Nec nam aliquam sem et tortor. Elit eget gravida cum sociis natoque. 
+                    Nisi est sit amet facilisis."
+                    link="https://i.insider.com/5d375f4ba13c950575539e04?width=1100&format=jpeg&auto=webp"
+                />
+            </Collapsible>
+
         </div>
         <img src={pattern} alt="pattern" id="backimg"/>
     </div>
