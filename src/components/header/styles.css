@@ -1,6 +1,6 @@
 .header-container {
     background-color: #131313;
-    padding: 60px;
+    padding: 30px;
     color: #F7FFF7;
     font-size: 21px;
     font-weight: 300;
@@ -10,7 +10,12 @@
   }
 
   .header-container #nameimg {
-      max-width: 90%;
+      width: 90%;
+      margin-top: 15px;
+  }
+
+  .logo-container {
+      text-align: center;
   }
 
   .header-container #barsimg {
@@ -26,4 +31,23 @@
 .header-container .link-meny {
     text-align: center;
     margin-top: 40px;
+    font-size: smaller;
+}
+
+.link-meny a {
+    margin: 30px;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+.link-meny a:hover {
+    /* text-decoration: underline !important; */
+    color: #17c9db !important;
+    text-shadow:0px 0px 20px #17c9db;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;    
 }

@@ -1,6 +1,5 @@
 .work-container {
     background-color: #131313;
-    padding-top: 20px;
     color: #F7FFF7;
     font-size: 28px;
     font-weight: 300;
@@ -9,6 +8,36 @@
     box-shadow: inset 0px 0px 34px 4px rgba(0,0,0,1);
   }
 
+.work-container-inner {
+  padding: 40px;
+}
+
 .work-container #backimg {
     opacity: 0.6;
+}
+
+/* work-section objects */
+
+.work-section {
+  max-width: 70%;
+  padding: 10px;
+  margin-bottom: 30px;
+  background-color: #00000065;
+  font-size: small;
+}
+
+.work-section .title {
+  font-size: 18px;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.work-section .subtitle {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.work-section img {
+  max-width: 90%;
 }

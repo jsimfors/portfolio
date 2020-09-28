@@ -16,10 +16,10 @@ return (
     <div className="header-container">
     <img src={topbars} alt="bars" id="barsimg"/>
     <Row>
-        <Col sm={4}>
+        <Col sm={3} className="logo-container">
             <img src={name} alt="name" id="nameimg"/>
         </Col>
-        <Col sm={7} id="headertext">
+        <Col sm={8} id="headertext">
             PORTFOLIO<br/>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. 
         </Col>
@@ -34,8 +34,9 @@ return (
                 offset={-70}
                 duration={500}
               >
-                portfolio&nbsp;&nbsp;&nbsp;&nbsp; 
+                portfolio
               </Link>
+              I
               <Link
                 activeClass="active"
                 to="section2"
@@ -44,8 +45,9 @@ return (
                 offset={-70}
                 duration={500}
               >
-                about me&nbsp;&nbsp;&nbsp;&nbsp;              
+                about me            
             </Link>
+            I
               <Link
                 activeClass="active"
                 to="section3"
@@ -56,14 +58,6 @@ return (
               >
                 contact
               </Link>
-
-            {/* portfolio
-            &nbsp;&nbsp;&nbsp;&nbsp; 
-            I&nbsp;&nbsp;&nbsp;&nbsp;
-            about me 
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            I&nbsp;&nbsp;&nbsp;&nbsp;
-            contact */}
         </Col>
     </Row>
     </div>
