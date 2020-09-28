@@ -1,6 +1,6 @@
 import React from 'react'
 import "./styles.css"
-import pattern from "../../imgs/pattern.png"
+import pattern_closeup from "../../imgs/pattern_closeup.png"
 import { Row, Col} from 'react-bootstrap';
 import Project from './projects.js'
 import Collapsible from 'react-collapsible';
@@ -71,7 +71,6 @@ return (
             </Collapsible>
 
         </div>
-        <img src={pattern} alt="pattern" id="backimg"/>
     </div>
 )
 }

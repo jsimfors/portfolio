@@ -4,9 +4,23 @@
     color: #F7FFF7;
     font-size: 21px;
     font-weight: 300;
+    text-align: center;
+
   }
 
-  .about-container img {
-    max-height: 350px;
+  .about-container .text-container {
+    text-align: left;
+  }
+
+  .about-container #profImg {
+    margin: 30px;
+    max-width: 90%;
+  }
+  
+  .about-container #aboutImg {
+    max-width: 250px;
+    margin: 15px;
+    margin-bottom: 25px;
+    margin-left: -40px;
   }
   

@@ -1,5 +1,9 @@
 .work-container {
-    background-color: #131313;
+    background-image: url("../../imgs/pattern.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right 100px;
+    background-color: rgba(0, 0, 0, 0.541);
     color: #F7FFF7;
     font-size: 28px;
     font-weight: 300;
@@ -12,9 +16,6 @@
   padding: 40px;
 }
 
-.work-container #backimg {
-    opacity: 0.6;
-}
 
 /* work-section objects */
 
