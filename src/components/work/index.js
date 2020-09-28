@@ -12,9 +12,8 @@ function Work() {
 return (
     <div className="work-container" id="section1">
         <div className="work-container-inner">
-            <h3>PREVIOUS WORK </h3>
-            <Collapsible trigger="DEVELOPMENT" open="true">
-                
+            <h3>PREVIOUS WORK </h3> {/*open = true*/}
+            <Collapsible trigger="DEVELOPMENT"> 
                 <Project 
                     title="Pensionskollen"
                     subtitle="SPP Sandbox Summer Internship"
@@ -48,7 +47,7 @@ return (
                     link="https://i.insider.com/5d375f4ba13c950575539e04?width=1100&format=jpeg&auto=webp"
                 />
             </Collapsible>
-            <Collapsible trigger="MATH" open="true">
+            <Collapsible trigger="MATH">
             <Project 
                     title="Pensionskollen"
                     subtitle="SPP Sandbox Summer Internship"
@@ -59,7 +58,7 @@ return (
                 />
             </Collapsible>
 
-            <Collapsible trigger="GRAPHIC DESIGN" open="true">
+            <Collapsible trigger="GRAPHIC DESIGN">
             <Project 
                     title="Pensionskollen"
                     subtitle="SPP Sandbox Summer Internship"
