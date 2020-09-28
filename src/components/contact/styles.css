@@ -9,4 +9,24 @@
   
   .contact-container #contactImg {
     max-width: 40%;
+    margin-bottom: 30px;
+  }
+
+  .contact-container .contactLogos img {
+    width: 20px;
+    margin: 10px;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+
+  .contact-container .contactLogos img:hover {
+    width: 40px;
+    margin: 0px;
+    filter:drop-shadow(0px 0px 10px #17c9db);
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;  
   }
