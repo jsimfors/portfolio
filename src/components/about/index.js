@@ -10,8 +10,9 @@ function About() {
 return (
     <div className="about-container" id="section2">
         <Row>
-            <Col sm={{ span: 4, offset: 1 }} className="image-container">
-                <img src={profpic} alt="profpic" id="profImg"/>
+            <Col sm={{ span: 4, offset: 1 }} className="image-outer-container">
+                <div className="image-container"></div>
+                {/* <img src={profpic} alt="profpic" id="profImg"/> */}
             </Col>
             <Col sm={5} className="text-container">
                 <img src={aboutpic} alt="profpic" id="aboutImg"/>

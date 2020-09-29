@@ -23,18 +23,25 @@
     margin-bottom: 25px;
     margin-left: -40px;
   }
+
+  .image-outer-container {
+    text-align: center;
+  }
+  .image-container {
+    background-image: url('../../imgs/profile_nohover.png');
+    height: 350px;
+    width: 350px;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;  
+  }
   
-  .image-container img:hover {
-    filter: hue-rotate(90deg);
+  .image-container:hover {
+    background-image: url('../../imgs/profile_hover.png');
     -moz-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
     -webkit-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;  
   }
 
-  .image-container img {
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    -webkit-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;  
-  }
