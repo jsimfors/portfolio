@@ -1,7 +1,7 @@
 import React from 'react'
 import "./styles.css"
 import name from "../../imgs/logo_s.png"
-import topbars from "../../imgs/topbars.png"
+import topbars from "../../imgs/topbars_ng.png"
 import { Row, Col} from 'react-bootstrap';
 import { Link, animateScroll as scroll } from "react-scroll";
 
