@@ -24,7 +24,7 @@ function App() {
               outerAlpha={0.2}
               innerScale={2}
               outerScale={3}
-            />
+        />
         <Row>
           <Col>
               <Header/>
@@ -45,6 +45,7 @@ function App() {
              <Contact/>
           </Col>
         </Row>
+        <div class="slider"></div>
       </Container>
     </BrowserRouter>
   )

@@ -1,16 +1,29 @@
 .work-container {
-    background-image: url("../../imgs/pattern.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: right 250px;
-    background-color: rgba(0, 0, 0, 0.584);
+    background-color: rgba(0, 0, 0, 0.79);
     color: #F7FFF7;
     font-size: 28px;
     font-weight: 300;
     -webkit-box-shadow: inset 0px 0px 34px 4px rgba(0,0,0,1);
     -moz-box-shadow: inset 0px 0px 34px 4px rgba(0,0,0,1);
     box-shadow: inset 0px 0px 34px 4px rgba(0,0,0,1);
+
+    background-image: url("../../imgs/pattern_clean40.png");
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;  
   }
+
+.work-container:hover {
+  background-image: url("../../imgs/pattern_clean.png");
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;  
+}
 
 .work-container-inner {
   padding: 40px;
