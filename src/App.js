@@ -6,11 +6,11 @@ import {
   NavLink,
   BrowserRouter
   } from "react-router-dom";
-import Work from './components/work'
-import Contact from './components/contact'
-import Header from './components/header'
-import About from './components/about'
-import AnimatedCursor from "react-animated-cursor"
+import Work from './components/work';
+import Contact from './components/contact';
+import Header from './components/header';
+import About from './components/about';
+import AnimatedCursor from "react-animated-cursor";
 
 function App() {
   
@@ -45,7 +45,6 @@ function App() {
              <Contact/>
           </Col>
         </Row>
-        <div class="slider"></div>
       </Container>
     </BrowserRouter>
   )

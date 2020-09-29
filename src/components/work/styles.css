@@ -11,18 +11,18 @@
     box-shadow: inset 0px 0px 34px 4px rgba(0,0,0,1);
 
     background-image: url("../../imgs/pattern_clean60.png");
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    -webkit-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;  
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;  
   }
 
 .work-container:hover {
   background-image: url("../../imgs/pattern_clean20.png");
-  -moz-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  -webkit-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;  
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;   
 }
 
 .work-container-inner {
@@ -70,14 +70,16 @@
   .Collapsible__trigger:after {
     font-family: 'FontAwesome';
     content: '\22C1';
+    color: rgba(255, 255, 255, 0.728);
     position: absolute;
-    margin: 10px;
     right: 10px;
-    top: 10px;
-    display: block;
     transition: transform 300ms; 
   }
-  
+  .Collapsible__trigger{
+    display: inline-block;
+    padding-right: 50px;
+  }
+
   .Collapsible__trigger.is-open:after {
     transform: rotateZ(180deg); 
   }

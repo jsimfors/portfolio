@@ -80,8 +80,6 @@ return (
                     link="https://i.insider.com/5d375f4ba13c950575539e04?width=1100&format=jpeg&auto=webp"
                 />
                 </Collapsible>
-                <br/>
-
 
         </div>
     </div>
