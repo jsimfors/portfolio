@@ -1,11 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Container, Row, Col} from 'react-bootstrap';
-import {
-  Route,
-  NavLink,
-  BrowserRouter
-  } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import Work from './components/work';
 import Contact from './components/contact';
 import Header from './components/header';

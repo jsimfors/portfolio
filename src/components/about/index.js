@@ -1,10 +1,7 @@
 import React from 'react'
 import "./styles.css"
-import profpic from "../../imgs/profpic_blue.png"
 import aboutpic from "../../imgs/aboutMe.png"
 import { Row, Col} from 'react-bootstrap';
-import Section from "../sections";
-import dummyText from "../dummyText";
 
 function About() {
 return (

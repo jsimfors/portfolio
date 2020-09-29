@@ -6,6 +6,8 @@
     color: #F7FFF7;
     font-size: 28px;
     font-weight: 300;
+    padding-left: 50px;
+    padding-right: 50px;
     -webkit-box-shadow: inset 0px 0px 34px 4px rgba(0,0,0,1);
     -moz-box-shadow: inset 0px 0px 34px 4px rgba(0,0,0,1);
     box-shadow: inset 0px 0px 34px 4px rgba(0,0,0,1);
@@ -29,33 +31,6 @@
   padding: 40px;
 }
 
-
-/* work-section objects */
-
-.work-section {
-  max-width: 70%;
-  padding: 10px;
-  margin-bottom: 30px;
-  background-color: #00000065;
-  font-size: small;
-}
-
-.work-section .title {
-  font-size: 18px;
-  font-weight: bolder;
-  font-style: italic;
-}
-
-.work-section .subtitle {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-
-.work-section img {
-  max-width: 90%;
-}
-
 .Collapsible__contentOuter{
   transition: height 500ms ease-in-out 0s !important;
 }
@@ -75,11 +50,53 @@
     right: 10px;
     transition: transform 300ms; 
   }
+
+  .Collapsible__trigger:hover:after,  .Collapsible__trigger:hover {
+    color: #8fdfe8;
+  }
+
   .Collapsible__trigger{
     display: inline-block;
-    padding-right: 50px;
+    padding-right: 30px;
   }
 
   .Collapsible__trigger.is-open:after {
     transform: rotateZ(180deg); 
   }
+
+
+
+/* work-section objects */
+
+.work-section {
+  max-width: 100%;
+  padding: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  /* background-color: #00000065; */
+  font-size: medium;
+  line-height: 1.8;
+
+}
+
+.work-section .title {
+  line-height: normal;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.work-section img {
+  max-width: 100%;
+  margin-top: 5px;
+}
+
+.work-section .skills {
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+hr {
+  background-color: white;
+}
