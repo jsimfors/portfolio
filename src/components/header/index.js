@@ -16,8 +16,8 @@ return (
             <img src={name} alt="name" id="nameimg"/>
         </Col>
         <Col sm={8} id="headertext">
-            PORTFOLIO<br/>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. 
+          Hi, I’m Johanna, a front-end developer and a 4th year MSc student in Interactive Media Technology. I love coding and have a sweet spot for good design.  
+          Check out my latest projects, and feel free to contact me!      
         </Col>
     </Row>
     <Row>

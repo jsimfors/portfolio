@@ -1,8 +1,9 @@
 .about-container {
     background-color: #080808;
-    padding: 20px;
+    padding: 40px 20px 60px 20px;
     color: #F7FFF7;
-    font-size: 21px;
+    font-size: medium;
+    line-height: 2;
     font-weight: 300;
     text-align: center;
 
@@ -12,16 +13,12 @@
     text-align: left;
   }
 
-  .about-container #profImg {
-    margin: 30px;
-    max-width: 90%;
-  }
-  
   .about-container #aboutImg {
-    max-width: 250px;
-    margin: 15px;
-    margin-bottom: 25px;
-    margin-left: -40px;
+    max-width: 300px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .image-outer-container {
@@ -35,7 +32,9 @@
     -o-transition: all 1s ease-in-out;
     -webkit-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;  
+    margin-top: 50px;
   }
+  
   
   .image-container:hover {
     background-image: url('../../imgs/profile_hover.png');

@@ -1,20 +1,22 @@
 const mathData = 
 [
     {
-        skills: "Website build with React, Typescript and Less.  ",
-        title:"SPP Sandbox Summer Internship",
-        img:"https://i.insider.com/5d375f4ba13c950575539e04?width=1100&format=jpeg&auto=webp",
-        info:"Front-end development in React, Typescript and Less. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id nibh tortor id aliquet. Sed lectus vestibulum mattis ullamcorper velit sed. Nec nam aliquam sem et tortor. Elit eget gravida cum sociis natoque. Nisi est sit amet facilisis.",
-        link:"https://i.insider.com/5d375f4ba13c950575539e04?width=1100&format=jpeg&auto=webp"
+        title:"Teaching Assistant, KTH",
+        subtitle: "Lectures in linear algebra and multiple variable calculus",
+        img:"teaching.png",
+        info:"I am a teaching assistant in the courses SF1624 Algebra & Geometry and SF1626 Multiple Variable Calculus at the Department of Mathematics at KTH. That includes holding lectures and seminars for other students at KTH. I also share material with my students, such as my notes and formula-sheets, through my page kthmatte.web.app. ",
+        link:"https://google.com",
+        linktext: "See a video demo of site."
             
     },
 
     {
-        skills:"Quiz game built with React, Spotify's API and Firebase real-time database. ",
-        title:"Smarty Pantz - Spotify API webgame",
-        img:"https://i.insider.com/5d375f4ba13c950575539e04?width=1100&format=jpeg&auto=webp",
-        info:"Front-end development in React, Typescript and Less. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id nibh tortor id aliquet. Sed lectus vestibulum mattis ullamcorper velit sed. Nec nam aliquam sem et tortor. Elit eget gravida cum sociis natoque. Nisi est sit amet facilisis.",
-        link:"https://smartypantz-c6131.firebaseapp.com/",
+        title:"Content Creator, Probability Theory and Statistics",
+        subtitle: "Producing formula sheets and summaries for classes in probability theory and statistics",
+        img:"kollin.png",
+        info:"Produced formula sheets and summaries for the course SF19x Probability Theory and Statistics at KTH, for the website Kollin.io.",
+        link:"https://google.com",
+        linktext: "See a video demo of site."
     }
 ]
 

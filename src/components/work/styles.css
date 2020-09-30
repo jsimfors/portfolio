@@ -1,23 +1,22 @@
 .work-container {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: right 200px;
-    background-color: #000000c9;
-    color: #F7FFF7;
-    font-size: 28px;
-    font-weight: 300;
-    padding-left: 50px;
-    padding-right: 50px;
-    -webkit-box-shadow: inset 0px 0px 34px 4px rgba(0,0,0,1);
-    -moz-box-shadow: inset 0px 0px 34px 4px rgba(0,0,0,1);
-    box-shadow: inset 0px 0px 34px 4px rgba(0,0,0,1);
-
-    background-image: url("../../imgs/pattern_clean60.png");
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;  
-  }
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right 200px;
+  background-color: #000000c9;
+  color: #F7FFF7;
+  font-size: 28px;
+  font-weight: 300;
+  padding-left: 50px;
+  padding-right: 50px;
+  -webkit-box-shadow: inset 0px 0px 34px 4px rgba(0,0,0,1);
+  -moz-box-shadow: inset 0px 0px 34px 4px rgba(0,0,0,1);
+  box-shadow: inset 0px 0px 34px 4px rgba(0,0,0,1);
+  background-image: url("../../imgs/pattern_clean60.png");
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;  
+}
 
 .work-container:hover {
   background-image: url("../../imgs/pattern_clean20.png");
@@ -35,10 +34,9 @@
   margin-bottom: 0.7em;
 }
 
-.Collapsible__contentOuter{
+.Collapsible__contentOuter {
   transition: height 500ms ease-in-out 0s !important;
 }
-
 
 .Collapsible__trigger {
   display: block;
@@ -46,66 +44,69 @@
   font-size: smaller;
 }
 
-  .Collapsible__trigger:after {
-    font-family: 'FontAwesome';
-    content: '\22C1';
-    color: rgba(255, 255, 255, 0.728);
-    position: absolute;
-    right: 10px;
-    transition: transform 300ms; 
-  }
+.Collapsible__trigger:after {
+  font-family: 'FontAwesome';
+  content: '\22C1';
+  color: rgba(255, 255, 255, 0.728);
+  position: absolute;
+  right: 10px;
+  transition: transform 300ms; 
+}
 
-  .Collapsible__trigger:hover:after,  .Collapsible__trigger:hover {
-    color: #8fdfe8;
-  }
+.Collapsible__trigger:hover:after,  .Collapsible__trigger:hover {
+  color: #8fdfe8;
+}
 
-  .Collapsible__trigger{
-    display: inline-block;
-    padding-right: 30px;
-  }
+.Collapsible__trigger {
+  display: inline-block;
+  padding-right: 30px;
+}
 
-  .Collapsible__trigger.is-open:after {
-    transform: rotateZ(180deg); 
-  }
+.Collapsible__trigger.is-open:after {
+  transform: rotateZ(180deg); 
+}
 
-  #skills-heading .Collapsible__trigger {
+#skills-heading .Collapsible__trigger {
     font-size: 1.75rem;
     font-weight: 500;
     line-height: 1.2;
     margin-bottom: 0.5em;
     margin-top: 2.5em;
-  }
-/* work-section objects */
+}
 
-.work-section {
+/* Work-Section Objects */
+
+.work-section, .skills-text {
   max-width: 100%;
   padding: 20px;
   margin-bottom: 30px;
   margin-top: 30px;
-  /* background-color: #00000065; */
   font-size: medium;
-  line-height: 1.8;
-
+  line-height: 1.5;
 }
 
 .work-section .title {
   line-height: normal;
-  font-size: 24px;
-  font-weight: bold;
-  font-style: italic;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: -2px;
 }
 
-.work-section img {
-  max-width: 100%;
-  margin-top: 5px;
-}
-
-.work-section .skills {
-  font-size: 18px;
+.work-section .subtitle {
+  font-size: 21px;
   font-style: italic;
   margin-bottom: 10px;
 }
 
-hr {
-  background-color: white;
+.work-section img {
+  max-width: 100%;
+  margin-top: 25px;
 }
+
+.work-section .innerText {
+  margin-bottom: 10px;
+}
+ .work-section a {
+  color: #8fdfe8 !important;
+ }
+
