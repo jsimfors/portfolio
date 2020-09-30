@@ -1,7 +1,5 @@
-import React from "react";
-
-export default function Project({ title, subtitle, dark, id }) {
-  const myData =[
+const mathData = 
+[
     {
         skills: "Website build with React, Typescript and Less.  ",
         title:"SPP Sandbox Summer Internship",
@@ -19,12 +17,5 @@ export default function Project({ title, subtitle, dark, id }) {
         link:"https://smartypantz-c6131.firebaseapp.com/",
     }
 ]
-  return (
-    <div >
-     Hellooooo content! {myData.map(function(item, i){
-  console.log('test');
-  return <li key={i}>Test</li>
-})}
-      </div>
-  );
-}
+
+export default mathData;

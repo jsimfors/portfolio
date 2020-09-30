@@ -31,6 +31,10 @@
   padding: 40px;
 }
 
+.work-container-inner h3 {
+  margin-bottom: 0.7em;
+}
+
 .Collapsible__contentOuter{
   transition: height 500ms ease-in-out 0s !important;
 }
@@ -64,8 +68,13 @@
     transform: rotateZ(180deg); 
   }
 
-
-
+  #skills-heading .Collapsible__trigger {
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 0.5em;
+    margin-top: 2.5em;
+  }
 /* work-section objects */
 
 .work-section {
