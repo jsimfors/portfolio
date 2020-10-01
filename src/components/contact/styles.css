@@ -4,7 +4,6 @@
     color: #F7FFF7;
     font-weight: 300;
     text-align: center;
-  
   }
   
   .contact-container #contactImg {
@@ -20,7 +19,7 @@
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
   }
-
+  
   .contact-container .contactLogos img:hover {
     width: 40px;
     margin: 0px;

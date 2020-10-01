@@ -6,7 +6,6 @@
     line-height: 2;
     font-weight: 300;
     text-align: center;
-
   }
 
   .about-container .text-container {
@@ -24,6 +23,7 @@
   .image-outer-container {
     text-align: center;
   }
+
   .image-container {
     background-image: url('../../imgs/profile_nohover.png');
     height: 350px;
@@ -34,7 +34,6 @@
     transition: all 1s ease-in-out;  
     margin-top: 50px;
   }
-  
   
   .image-container:hover {
     background-image: url('../../imgs/profile_hover.png');

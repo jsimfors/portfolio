@@ -14,31 +14,31 @@ function App() {
     <BrowserRouter>
       <Container fluid>
         <AnimatedCursor 
-              innerSize={8}
-              outerSize={8}
-              color='23, 201, 219'
-              outerAlpha={0.2}
-              innerScale={2}
-              outerScale={3}
+          innerSize={8}
+          outerSize={8}
+          color='23, 201, 219'
+          outerAlpha={0.2}
+          innerScale={3}
+          outerScale={6}
         />
         <Row>
           <Col>
-              <Header/>
+            <Header/>
           </Col>
         </Row>
         <Row>
           <Col>
-             <Work/>
+            <Work/>
           </Col>
         </Row>
         <Row>
           <Col>
-             <About/>
+            <About/>
           </Col>
         </Row>
         <Row>
           <Col>
-             <Contact/>
+            <Contact/>
           </Col>
         </Row>
       </Container>

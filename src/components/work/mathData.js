@@ -8,10 +8,8 @@ const mathData =
         img:"teaching.png",
         info:<div>I am a teaching assistant in the courses <i>SF1624 Algebra & Geometry</i> and <i>SF1626 Multiple Variable Calculus</i> at the Department of Mathematics at KTH. That includes teaching classes and holding seminars for other students at KTH. I also share material with my students, such as my notes and formula-sheets, through my page linked below.</div>,
         link:"https://kthmatte.web.app",
-        linktext: "Mathnotes - website"
-            
+        linktext: "Mathnotes - website"      
     },
-
     {
         title:"Content Creator, Probability Theory and Statistics",
         subtitle: "Producing formula sheets and summaries for classes in probability theory and statistics",
