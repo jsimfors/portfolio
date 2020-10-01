@@ -12,15 +12,15 @@ return (
     <div className="header-container">
     <img src={topbars} alt="bars" id="barsimg"/>
     <Row>
-        <Col sm={3} className="logo-container">
+        <Col md={5} lg={3} className="logo-container">
             <img src={name} alt="name" id="nameimg"/>
         </Col>
-        <Col sm={8} id="headertext">
+        <Col md={7} lg={9} id="headertext">
           Hi, I’m Johanna, a front-end developer and a fourth year MSc student in Interactive Media Technology. I love coding and have a sweet spot for good design.  
         </Col>
     </Row>
     <Row>
-        <Col className="link-meny">
+        <div className="link-meny">
               <Link
                 activeClass="active"
                 to="section1"
@@ -53,7 +53,7 @@ return (
               >
                 contact
               </Link>
-        </Col>
+        </div>
     </Row>
     </div>
 )

@@ -14,7 +14,7 @@ function Work() {
 return (
     <div className="work-container" id="section1">     
         <Row>
-            <Col sm={{ span: 10, offset: 1 }}>
+            <Col md={{ span: 10, offset: 1 }}  xs={12}>
                 <div className="work-container-inner">
                     <h3>PREVIOUS WORK</h3>
                     <Collapsible trigger="DEVELOPMENT"> 
