@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "./styles.css"
 import Project from './project.js'
 import Collapsible from 'react-collapsible';
-import { Row, Col, Button } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import preWorkData from './preWorkData'
 import mathData from './mathData';
 import graphDesData from './graphDesData.js';

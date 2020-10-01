@@ -23,12 +23,12 @@ export default function Project({projectData}) {
               <div className="innerText">              
                 {item.info}
               </div>
-              {item.link=="video"? 
+              {item.link==="video"? 
               <div>
                 <div onClick={onClick} id="special-link">{showVideo?"Hide":"Show"} video-demo of the site</div>
                 <div>
                   { showVideo ? 
-                  <iframe src="https://drive.google.com/file/d/1l7Il52AvpVanFW4m_W4RDqSxBlD8BPE7/preview" width="640" height="360" frameBorder="0" allowFullScreen></iframe>
+                  <iframe src="https://drive.google.com/file/d/1l7Il52AvpVanFW4m_W4RDqSxBlD8BPE7/preview" title="sandbox-video" width="640" height="360" frameBorder="0" allowFullScreen></iframe>
                   :
                     null 
                   }
@@ -36,7 +36,7 @@ export default function Project({projectData}) {
               </div>
               :
               <div>
-                {item.link=="no link"?
+                {item.link==="no link"?
                 null
                 :
                 <a href={item.link}>{item.linktext}</a>
@@ -45,7 +45,7 @@ export default function Project({projectData}) {
               }
             </Col>
           </Row>
-          {item.title=="Sole Trader Company"?
+          {item.title==="Sole Trader Company"?
             (
             <Row>
               <Col sm={4}>
