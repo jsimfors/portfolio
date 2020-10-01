@@ -1,16 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./styles.css"
 import Project from './project.js'
 import Collapsible from 'react-collapsible';
-import { Row, Col} from 'react-bootstrap';
+import { Row, Col, Button } from 'react-bootstrap';
 import preWorkData from './preWorkData'
 import mathData from './mathData';
-import graphDesData from './graphDesData.js'
+import graphDesData from './graphDesData.js';
+
+ 
 
 function Work() {
 
 return (
-    <div className="work-container" id="section1">
+    <div className="work-container" id="section1">     
         <Row>
             <Col sm={{ span: 10, offset: 1 }}>
                 <div className="work-container-inner">
@@ -45,7 +47,7 @@ return (
                             <br/>
                             <div className="subtitle">Bonus skill!</div>
                             I’m a qualified barista! Let's talk coffee! 
-                            <i class="fa fa-coffee" aria-hidden="true"></i>
+                            <i className="fa fa-coffee" aria-hidden="true"></i>
                         </div>
                         </Collapsible>   
                     </div>             

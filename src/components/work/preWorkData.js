@@ -5,7 +5,7 @@
           subtitle: "Front-end development in React, Typescript & Less.",
           img:"sandbox.jpg",
           info:"During the summer of 2020 I was a part of  SPP’s Sandbox Summer Internship. Together with four other students we delivered a MVP, focusing on helping people close to retirement. The project included research, user-testing and development. My contribution was centered around the development and the design of the user interface. The product was built in React, Typescript, Less, d3 and Material UI through Azure Devops.",
-          link:"https://i.insider.com/5d375f4ba13c950575539e04?width=1100&format=jpeg&auto=webp",
+          link:"video",
           linktext: "See a video demo of site."
       },
   

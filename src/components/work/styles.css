@@ -122,3 +122,11 @@
   color: #8fdfe8 !important;
  }
 
+#special-link {
+  margin-bottom: 10px;
+  color: #8fdfe8;
+}
+
+#special-link:hover {
+  text-decoration: underline;
+}
