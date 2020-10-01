@@ -10,7 +10,7 @@ export default function Project({projectData}) {
       return (
         <div className="work-section" key={index}>
           <Row>
-            <Col md={4}>
+            <Col lg={4} xs={12}>
               <img src={require('../../imgs/' + item.img)} alt="printscreen-page"/>
             </Col>
             <Col>
