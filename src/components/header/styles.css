@@ -26,12 +26,13 @@
 }
 
 .header-container #headertext {
-    padding-top: 50px;
+    padding-top: 65px;
+    padding-right: 20px;
 }
 
 .header-container .link-meny {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 50px;
     font-size: smaller;
 }
 

@@ -1,12 +1,14 @@
+import React from 'react'
+
 const mathData = 
 [
     {
         title:"Teaching Assistant, KTH",
-        subtitle: "Lectures in linear algebra and multiple variable calculus",
+        subtitle: "Classes in linear algebra and multiple variable calculus",
         img:"teaching.png",
-        info:"I am a teaching assistant in the courses SF1624 Algebra & Geometry and SF1626 Multiple Variable Calculus at the Department of Mathematics at KTH. That includes holding lectures and seminars for other students at KTH. I also share material with my students, such as my notes and formula-sheets, through my page kthmatte.web.app. ",
-        link:"https://google.com",
-        linktext: "See a video demo of site."
+        info:<div>I am a teaching assistant in the courses <i>SF1624 Algebra & Geometry</i> and <i>SF1626 Multiple Variable Calculus</i> at the Department of Mathematics at KTH. That includes teaching classes and holding seminars for other students at KTH. I also share material with my students, such as my notes and formula-sheets, through my page linked below.</div>,
+        link:"https://kthmatte.web.app",
+        linktext: "Mathnotes - website"
             
     },
 
@@ -14,9 +16,9 @@ const mathData =
         title:"Content Creator, Probability Theory and Statistics",
         subtitle: "Producing formula sheets and summaries for classes in probability theory and statistics",
         img:"kollin.png",
-        info:"Produced formula sheets and summaries for the course SF19x Probability Theory and Statistics at KTH, for the website Kollin.io.",
-        link:"https://google.com",
-        linktext: "See a video demo of site."
+        info:"Produced formula sheets and summaries for the course SF19XY Probability Theory and Statistics at KTH, for the website Kollin.io.",
+        link:"https://kollin.io/course/24/home",
+        linktext: "Visit Kollin.io"
     }
 ]
 

@@ -21,7 +21,7 @@ return (
                 <a href="https://github.com/jsimfors/">
                     <img src={githublogo} alt="gitlogo"/>
                 </a>
-                <a href="https://www.linkedin.com/in/johanna-simfors-247313160/">
+                <a href="mailto:johanna.simfors@gmail.com">
                     <img src={emaillogo} alt="maillogo"/>
                 </a>
             </div>
