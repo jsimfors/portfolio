@@ -30,20 +30,22 @@ return (
                             projectData={graphDesData}
                         />
                     </Collapsible>
-                    <div id="skills-heading">
+                    <div className="skills-section">
                         <Collapsible trigger="SKILLS">
-                        <div className="skills-text">              
-                        Programming and markup languages<br/>
-                        Javascript, Python, HTML, CSS (including Less & Sass), SQL, XML, PHP<br/>
-                        <br/>
-                        Frameworks & Libraries<br/>
-                        React, React Native, d3, Onsen UI, Material UI.<br/>
-                        <br/>
-                        Other skills<br/>
-                        Photoshop, Illustrator, Premier Pro, After Effects, Blender.<br/>
-                        <br/>
-                        Bonus skill!<br/>
-                        I’m a qualified barista and have worked several years full time both in Sweden and abroad! Always up to discuss the perfect brewing temperature or latest milk steaming technologies. 
+                        <div className="inner-skill-section">              
+                            <div className="subtitle">Programming and markup languages</div>
+                            Javascript, Python, HTML, CSS/Less/Sass, SQL, XML, PHP<br/>
+                            <i>+ basic Java knowledge</i><br/>
+                            <br/>
+                            <div className="subtitle">Frameworks & Libraries</div>
+                            React, React Native, d3, Onsen UI, Material UI.<br/>
+                            <br/>
+                            <div className="subtitle">Other skills</div>
+                            Photoshop, Illustrator, Premier Pro, After Effects, Blender.<br/>
+                            <br/>
+                            <div className="subtitle">Bonus skill!</div>
+                            I’m a qualified barista! Let's talk coffee! 
+                            <i class="fa fa-coffee" aria-hidden="true"></i>
                         </div>
                         </Collapsible>   
                     </div>             

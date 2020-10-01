@@ -66,7 +66,7 @@
   transform: rotateZ(180deg); 
 }
 
-#skills-heading .Collapsible__trigger {
+.skills-section .Collapsible__trigger {
     font-size: 1.75rem;
     font-weight: 500;
     line-height: 1.2;
@@ -76,26 +76,37 @@
 
 /* Work-Section Objects */
 
-.work-section, .skills-text {
+.work-section, .inner-skill-section {
   max-width: 100%;
   padding: 20px;
   margin-bottom: 30px;
-  margin-top: 30px;
   font-size: medium;
   line-height: 1.5;
 }
 
-.work-section .title {
+.work-section {
+  margin-top: 30px;
+}
+
+.work-section .title, .skills-section .title{
   line-height: normal;
   font-size: 28px;
   font-weight: 600;
   margin-bottom: -2px;
 }
 
-.work-section .subtitle {
+.work-section .subtitle,  .skills-section .subtitle {
   font-size: 21px;
   font-style: italic;
   margin-bottom: 10px;
+}
+
+.skills-section .subtitle {
+  margin-bottom: 4px;
+}
+
+.skills-section i {
+  margin-left: 7px;
 }
 
 .work-section img {
@@ -103,8 +114,9 @@
   margin-top: 25px;
 }
 
-.work-section .innerText {
+.work-section .innerText  {
   margin-bottom: 10px;
+
 }
  .work-section a {
   color: #8fdfe8 !important;
