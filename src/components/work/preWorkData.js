@@ -37,6 +37,14 @@ const preWorkData =
             linktext: "LIVE DEMO"
         },
         {
+            title:"The Big Coffee Adventure",
+            subtitle: "Full-stack development in PHP, XML, CSS, SQL & phpMyAdmin",
+            img:"coffee.png",
+            info:<div>On the XML-based website <i>The Big Coffee Adventure</i> the user can learn about all the coffee availabel at KTH-Campus, and also rate it based on their own experience. The page includes a possibility to log-in and to search for a specific place. The data is retrieved from the MySQL-based database phpMyAdmin. The website was built as a part of the course <i>DM2517 XML for Publishing</i> at KTH</div>, 
+            link:"https://bit.ly/coffeedataphp",
+            linktext: "LIVE DEMO"
+        },  
+        {
             title:"Math-app",
             subtitle: "UI design & front-end development in React, Material UI & CSS",
             img:"mathnotes.png",
