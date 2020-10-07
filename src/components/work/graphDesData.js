@@ -22,7 +22,7 @@ const graphDesData =
         title:"Sentio - focus on what matters",
         subtitle: "Design Project in IOT - Designing Products for 2050",
         img:"sentio.png",
-        info:<div>In the course <i>AD1RD1 Reflective Design Process</i> at KTH, me and my group, designed the AI-based product Sentio - an ear piece that sits behind your ear and  communicates with you through bone conduction. The course was centered around designing products that would solve problems in the year 2050. The product was developed through a 5 week design process, and then built both as a virtual 3D-model and later on 3D-printed"</div>,
+        info:<div>In the course <i>AD1RD1 Reflective Design Process</i> at KTH, me and my group designed the AI-based product Sentio - an ear piece that sits behind your ear and  communicates with you through bone conduction. The course was centered around designing products that would solve problems in the year 2050. The product was developed through a 5 week design process, and then built both as a virtual 3D-model and later on 3D-printed.</div>,
         link:"no link",
         linktext: "" 
     },    

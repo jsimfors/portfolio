@@ -4,9 +4,9 @@ const preWorkData =
     [
         {
             title:"SPP Sandbox Internship",
-            subtitle: "UX, UI and front-end development in React, Typescript & Less.",
+            subtitle: "UX, UI & front-end development in React, Typescript & Less.",
             img:"sandbox.jpg",
-            info:"During the summer of 2020 I was a part of  SPP’s Sandbox Summer Internship. Together with four other students we delivered a MVP, focusing on helping people close to retirement make good choices. The project included research, user-testing and development. My contribution was centered around the development and also the design of the user interface. The product was built in React, Typescript, Less, d3 and Material UI through Azure Devops.",
+            info:"During the summer of 2020 I was a part of  SPP’s Sandbox Summer Internship. Together with four other students we delivered an MVP, focusing on helping people close to retirement make good choices. The project included research, user-testing and development. My contribution was centered around the development and designing the user interface. The product was built in React, Typescript, Less, d3 and Material UI.",
             link:"video",
             linktext: "See a video demo of site."
         },
@@ -40,7 +40,7 @@ const preWorkData =
             title:"The Big Coffee Adventure",
             subtitle: "Full-stack development in PHP, XML, CSS, SQL & phpMyAdmin",
             img:"coffee.png",
-            info:<div>On the XML-based website <i>The Big Coffee Adventure</i> the user can learn about all the coffee availabel at KTH-Campus, and also rate it based on their own experience. The page includes a possibility to log-in and to search for a specific place. The data is retrieved from the MySQL-based database phpMyAdmin. The website was built as a part of the course <i>DM2517 XML for Publishing</i> at KTH</div>, 
+            info:<div>On the XML-based website <i>The Big Coffee Adventure</i> the user can learn about all the coffee available at KTH-Campus, and also rate it based on their own experience. The page includes a possibility to log-in and to search for a specific place. The data is retrieved from the MySQL-based database phpMyAdmin. The website was built as a part of the course <i>DM2517 XML for Publishing</i> at KTH</div>, 
             link:"https://bit.ly/coffeedataphp",
             linktext: "LIVE DEMO"
         },  
