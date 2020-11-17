@@ -11,7 +11,8 @@
   -webkit-box-shadow: inset 0px 0px 34px 4px rgba(0,0,0,1);
   -moz-box-shadow: inset 0px 0px 34px 4px rgba(0,0,0,1);
   box-shadow: inset 0px 0px 34px 4px rgba(0,0,0,1);
-  background-image: url("../../imgs/pattern_clean60.png");
+  background-image: url("../../imgs/pattern_forRepeat_60.png");
+  background-repeat: repeat-x;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -19,7 +20,8 @@
 }
 
 .work-container:hover {
-  background-image: url("../../imgs/pattern_clean20.png");
+  background-image: url("../../imgs/pattern_forRepeat_20.png");
+  background-repeat: repeat-x;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;

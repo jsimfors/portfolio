@@ -6,11 +6,15 @@ import { Row, Col } from 'react-bootstrap';
 import preWorkData from './preWorkData'
 import mathData from './mathData';
 import graphDesData from './graphDesData.js';
+import patternpic from "../../imgs/pattern_clean60.png";
 
 function Work() {
+    // <img src={patternpic} alt="Nature" id="responsive"></img>
 
     return (
-        <div className="work-container" id="section1">     
+        <Row>
+            <Col>
+            <div className="work-container" id="section1">  
             <Row>
                 <Col md={{ span: 10, offset: 1 }}  xs={12}>
                     <div className="work-container-inner">
@@ -35,7 +39,7 @@ function Work() {
                                 <div className="inner-skill-section">              
                                     <div className="subtitle">Programming and markup languages</div>
                                     Javascript, Python, HTML, CSS/Less/Sass, SQL, XML, PHP<br/>
-                                    <i>+ basic Java knowledge</i><br/>
+                                    <i>+ a good basic Java knowledge</i><br/>
                                     <br/>
                                     <div className="subtitle">Frameworks & Libraries</div>
                                     React, React Native, d3, Onsen UI, Material UI.<br/>
@@ -53,6 +57,8 @@ function Work() {
                 </Col>
             </Row>
         </div>
+        </Col>
+        </Row>
     )
 }
 
