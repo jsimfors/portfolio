@@ -15,10 +15,8 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-analytics.js"></script>
-    <script src="../firebase-config.js"></script>
-    <script type="module">
-      // Import from file, ignored by git.
-      import { firebaseConfig } from '../firebase-config.js';
+    <script type="module" src="./firebase-config.js">
+      import { firebaseConfig } from './firebase-config.js';
       // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
       firebase.analytics();

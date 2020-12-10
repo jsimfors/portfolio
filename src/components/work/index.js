@@ -6,7 +6,6 @@ import { Row, Col } from 'react-bootstrap';
 import preWorkData from './preWorkData'
 import mathData from './mathData';
 import graphDesData from './graphDesData.js';
-import patternpic from "../../imgs/pattern_clean60.png";
 
 function Work() {
     return (
