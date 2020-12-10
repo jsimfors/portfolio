@@ -9,8 +9,6 @@ import graphDesData from './graphDesData.js';
 import patternpic from "../../imgs/pattern_clean60.png";
 
 function Work() {
-    // <img src={patternpic} alt="Nature" id="responsive"></img>
-
     return (
         <Row>
             <Col>
@@ -37,15 +35,14 @@ function Work() {
                         <div className="skills-section">
                             <Collapsible trigger="SKILLS">
                                 <div className="inner-skill-section">              
-                                    <div className="subtitle">Programming and markup languages</div>
-                                    Javascript, Python, HTML, CSS/Less/Sass, SQL, XML, PHP<br/>
-                                    <i>+ a good basic Java knowledge</i><br/>
+                                    <div className="subtitle">Programming &#38; Markup Languages</div>
+                                    JavaScript, TypeScript, Python, HTML, CSS/Less/Sass, SQL, XML, PHP, Kotlin and a good basic Java knowledge.<br/>
                                     <br/>
-                                    <div className="subtitle">Frameworks & Libraries</div>
+                                    <div className="subtitle">Frameworks &#38; Libraries</div>
                                     React, React Native, d3, Onsen UI, Material UI.<br/>
                                     <br/>
                                     <div className="subtitle">Other skills</div>
-                                    Photoshop, Illustrator, Premier Pro, After Effects, InDesign, Blender<br/>
+                                    Photoshop, Illustrator, Premier Pro, After Effects, InDesign, Blender.<br/>
                                     <br/>
                                     <div className="subtitle">Bonus skill!</div>
                                     I’m a qualified barista! Let's talk coffee! 
