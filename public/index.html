@@ -15,8 +15,21 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-analytics.js"></script>
-    <script type="module" src="%PUBLIC_URL%/firebase-config.js">
-      import { firebaseConfig } from '%PUBLIC_URL%/firebase-config.js';
+    
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-firestore.js"></script>
+
+    <script>
+      var firebaseConfig = {
+              apiKey: "AIzaSyCAHZoUTTt45hq6WSIj9ZvlN67utqPPH4I",
+              authDomain: "johanna-simfors.firebaseapp.com",
+              databaseURL: "https://johanna-simfors.firebaseio.com",
+              projectId: "johanna-simfors",
+              storageBucket: "johanna-simfors.appspot.com",
+              messagingSenderId: "867374794241",
+              appId: "1:867374794241:web:4c1c0e1841d5ef88b5a200",
+              measurementId: "G-PHG6D33PH0"
+      }
       // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
       firebase.analytics();

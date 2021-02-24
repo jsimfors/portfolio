@@ -21,14 +21,14 @@ function Work() {
                                 projectData={preWorkData}
                             />
                         </Collapsible>
+                        <Collapsible trigger="DESIGN">
+                            <Project
+                                projectData={graphDesData}
+                            />
+                        </Collapsible>
                         <Collapsible trigger="MATH">
                             <Project
                                 projectData={mathData}
-                            />
-                        </Collapsible>
-                        <Collapsible trigger="GRAPHIC DESIGN">
-                            <Project
-                                projectData={graphDesData}
                             />
                         </Collapsible>
                         <div className="skills-section">
