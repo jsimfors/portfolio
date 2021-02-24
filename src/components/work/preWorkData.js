@@ -15,7 +15,7 @@ const preWorkData =
             subtitle:"UI design & full-stack development with React, Spotify’s API & Cloud Firestore",
             img:"smartypantz.png",
             info:<div>Smarty Pantz is a game that tests your knowledge on music in different categories. The game is played on the web, and built in React, HTML and CSS with Spotify’s API and the Baas Cloud Firestore.
-                The game was built as a part of the course <i>DH2642 Interaction Programming and the Dynamic Web</i> at KTH. Apart from development, I also did the user interface design. Click the link below to play the game - and find out if you are the smartest of Smarty Pantz… or just a dumb sock.</div>,
+                The game was built as a part of the course <i>DH2642 Interaction Programming and the Dynamic Web</i> at KTH. Besides development, I also did the user interface design. Click the link below to play the game - and find out if you are the smartest of Smarty Pantz… or just a dumb sock.</div>,
             link:"https://smartypantz-c6131.firebaseapp.com/",
             linktext: "LIVE DEMO: Play the game!"
         },
@@ -23,7 +23,7 @@ const preWorkData =
             title:"The Card Game",
             subtitle: "UI design & full-stack development in React, CSS & Cloud Firestore",
             img:"thecardgame.png",
-            info:"The Card Game is a web based game, built by me and one more student, with the purpose to conduct user studies for our Bachelor Thesis in Media Technology. It was based around the question “How does the degree of anonymity affect our morals?”. The website was built in React, CSS, and with the Baas Cloud Firestore. Apart from development, I also did the user interface design.",
+            info:"The Card Game is a web based game, built by me and one more student, with the purpose to conduct user studies for our Bachelor Thesis in Media Technology. It was based around the question “How does the degree of anonymity affect our morals?”. The website was built in React, CSS, and with the Baas Cloud Firestore. Besides development, I also did the user interface design.",
             link:"https://bit.ly/thecardgame",
             linktext: "LIVE DEMO"
         },
