@@ -5,6 +5,7 @@ import Collapsible from 'react-collapsible';
 import { Row, Col } from 'react-bootstrap';
 import preWorkData from './preWorkData'
 import mathData from './mathData';
+import computerGraphData from './computerGraph';
 import graphDesData from './graphDesData.js';
 
 function Work() {
@@ -21,6 +22,11 @@ function Work() {
                                 projectData={preWorkData}
                             />
                         </Collapsible>
+                        <Collapsible trigger="COMPUTER GRAPHICS">
+                            <Project
+                                projectData={computerGraphData}
+                            />
+                        </Collapsible>
                         <Collapsible trigger="DESIGN">
                             <Project
                                 projectData={graphDesData}
@@ -35,10 +41,10 @@ function Work() {
                             <Collapsible trigger="SKILLS">
                                 <div className="inner-skill-section">              
                                     <div className="subtitle">Programming &#38; Markup Languages</div>
-                                    JavaScript, TypeScript, Python, HTML, CSS/Less/Sass, SQL, XML, PHP, Kotlin and a good basic Java knowledge.<br/>
+                                    JavaScript, TypeScript, Dart, Python, HTML, CSS/Less/Sass, SQL, XML, PHP, Kotlin and a good basic Java knowledge.<br/>
                                     <br/>
-                                    <div className="subtitle">Frameworks &#38; Libraries</div>
-                                    React, React Native, d3, Onsen UI, Material UI.<br/>
+                                    <div className="subtitle">Frameworks, Libraries &#38; SDK's </div>
+                                    React, React Native, Flutter, d3, Onsen UI, Material UI.<br/>
                                     <br/>
                                     <div className="subtitle">Other skills</div>
                                     Photoshop, Illustrator, Premier Pro, After Effects, InDesign, Blender.<br/>
