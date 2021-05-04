@@ -20,6 +20,14 @@ const preWorkData =
             linktext: "LIVE DEMO: Play the game!"
         },
         {
+            title:"Vistics - Visualize Statitics",
+            subtitle: "UI design & full-stack development in Flutter with two REST APIs",
+            img:"vistics.png",
+            info: "Vistics is a Flutter app, built solely by me, that visualizes different types of data, both through graphs and colour coded maps. The user can customize their call to the API directly in the UI, to display different types of data, in many different ways. The app is written in Dart and uses two different REST APIs. It's is not a part of any University course or previous work, just something I've worked with in my spare time because I think data visualization is really interesting. Please check out the Github Repository for more information about this project.",
+            link:"https://github.com/jsimfors/covid-tracker",
+            linktext: "Link to repository"
+        },
+        {
             title:"The Card Game",
             subtitle: "UI design & full-stack development in React, CSS & Cloud Firestore",
             img:"thecardgame.png",
@@ -40,15 +48,14 @@ const preWorkData =
             title:"The Big Coffee Adventure",
             subtitle: "Full-stack development in PHP, XML, CSS, SQL & phpMyAdmin",
             img:"coffee.png",
-            info:<div>On the XML-based website <i>The Big Coffee Adventure</i> the user can learn about all the coffee available at KTH-Campus, and also rate it based on their own experience. The page includes a possibility to log-in and to search for a specific place. The data is retrieved from the MySQL-based database phpMyAdmin. The website was built as a part of the course <i>DM2517 XML for Publishing</i> at KTH</div>, 
             link:"https://bit.ly/coffeedataphp",
             linktext: "LIVE DEMO"
         },  
         {
             title:"Math-app",
-            subtitle: "UI design & front-end development in React, Material UI & CSS",
+            subtitle: "UI design & full-stack development in React, Material UI & CSS",
             img:"mathnotes.png",
-            info:"A simple website I built to easier distribute material in my work as an assistant at the Department of Mathematics, KTH. I usually make custom formula sheets for all my classes, and like to upload my notes afterwards, to make sure my students have the best possible conditions to understand and pass their exams. (You can read more about my work as a teaching assistant in the Math section.)",
+            info:"A website I built to easier distribute material in my work as an assistant at the Department of Mathematics, KTH. I usually make custom formula sheets for all my classes, and like to upload my notes afterwards, to make sure my students have the best possible conditions to understand and pass their exams. (You can read more about my work as a teaching assistant in the Math section.)",
             link:"https://kthmatte.web.app",
             linktext: "LIVE DEMO"
         }   

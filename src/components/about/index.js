@@ -14,9 +14,7 @@ return (
                 I have many years of experience in developing for both mobile and desktop platforms. I mostly do front-end 
                 development but have a good understanding of the whole full-stack process. I am a big fan of abstract math, (no 
                 math no code right?) and graphic design. I started my own sole proprietorship company in 2013, to be able to 
-                work professionally as an illustrator and graphic designer on the side of my studies. I am currently looking 
-                for an internship for next summer. Please do not hesitate to contact me if you think that I would be a good 
-                fit for your company!
+                work professionally as an illustrator and graphic designer on the side of my studies. 
             </Col>
             <Col md={3} className="image-outer-container">
                 <div className="image-container"></div>
