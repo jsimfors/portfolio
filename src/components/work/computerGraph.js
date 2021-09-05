@@ -15,7 +15,8 @@ const computerGraphData =
         subtitle: "Ray Tracing project built in C, OpenGL & ShaderToy",
         img:"cornellbox.png",
         info:"This project is built as a part of the course DH2323 Computer Graphics and Interaction at KTH. It is a work-in-process. We are currently trying out different methods to effectively visualize the Cornell box with ray tracing. Feel free to follow along in our blog linked below.",
-        link:"https://visualraytracing.wordpress.com/",
+        // link:"https://visualraytracing.wordpress.com/",
+        link: "https://drive.google.com/file/d/1j8tStykcBh4SulGsvWkyN7dTdVuRq_8B/view?usp=sharing",
         linktext: "Link to blog"      
     },
 ]

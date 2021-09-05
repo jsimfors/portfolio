@@ -12,31 +12,31 @@ class CarouselComponent extends Component {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src={require('../../imgs/' + this.props.images)}
+                    src={require('../../imgs/' + this.props.images[0].source)}
                     alt="First slide"
                     />
                     <Carousel.Caption>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <p>{this.props.images[0].caption}</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src={require('../../imgs/sandbox.jpg')}
+                    src={require('../../imgs/' + this.props.images[1].source)}
                     alt="Second slide"
                     />
                     <Carousel.Caption>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>{this.props.images[1].caption}</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src={require('../../imgs/coffee.png')}
+                    src={require('../../imgs/' + this.props.images[2].source)}
                     alt="Third slide"
                     />
                     <Carousel.Caption>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <p>{this.props.images[2].caption}</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 </Carousel>

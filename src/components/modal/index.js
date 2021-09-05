@@ -24,9 +24,8 @@ class MyModalComponent extends Component {
                     <Row>
                         <Col lg={8} xs={12}>
                             <CarouselComponent
-                            images={'ericsson.png'}
+                                images={this.props.data.images}
                             />                        
-                            {/* {this.props.data.img ? <img src={require('../../imgs/' + this.props.data.img)} alt="printscreen-page"/> : <div/>} */}
                         </Col>
                         <Col>
                             <div className="subtitle">
@@ -35,39 +34,36 @@ class MyModalComponent extends Component {
                             <div className="tools-bar">
                                 <p>Tools used:</p>
                                 <ul>
+                                {this.props.data?.toolsUsed?.map((item, index) => (
                                     <li>
-                                        Python <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png"/>
+                                        {item} 
                                     </li>
-                                    <li>
-                                        React <img src="https://nextsoftware.io/files/images/logos/main/reactjs-logo.png"/> 
-                                    </li>
-                                    <li>
-                                        Javascript <img src="https://www.easyprogramming.net/logo/js.png"/>
-                                    </li>
+                                ))}
                                 </ul>
                             </div>
                             My Main Responsibilities
                             <ul>
-                                <li>
-                                    Implementing the API
-                                </li>
-                                <li>
-                                    The user interface design
-                                </li>
+                            {this.props.data?.myResp?.map((item, index) => (
+                                    <li>
+                                        {item} 
+                                    </li>
+                                ))}
                             </ul>
 
                         </Col>
                     </Row>
                     <Row>
                         <Col>
-                        {this.props.data.info}
+                        {this.props.data.infoLong}
                         </Col>
                     </Row>
                     </Modal.Body>
                     <Modal.Footer>
-                        <Button variant="secondary">Demo</Button>
-                        <Button variant="secondary">Github Repository</Button>
-                        <Button variant="secondary">Read the Report</Button>
+                    {this.props.data?.links?.map((item, index) => (
+                        <a href={item.url}>
+                            <Button variant="secondary">{item.name}</Button>
+                        </a>
+                    ))}
                     </Modal.Footer>
                 </Modal>
             </div>

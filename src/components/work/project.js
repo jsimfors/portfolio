@@ -33,12 +33,14 @@ class Project extends Component {
 
   render() {
     return (
+      // TODO: Replace with:
+      // this.props.projectData.map((item, index) => {
       preWorkData.map((item, index) => {
         return (
           <div className="work-section" key={index}>
             <Row>
               <Col lg={4} xs={12}>
-                <img src={require('../../imgs/' + item.img)} alt="printscreen-page"/>
+                <img src={require('../../imgs/' + item.images[0].source)} alt="printscreen-page"/>
               </Col>
               <Col>
                 <Row>
@@ -50,7 +52,7 @@ class Project extends Component {
                     {item.subtitle}
                   </div>
                   <div className="innerText">              
-                    {item.info}
+                    {item.infoShort}
                   </div>
                   </Col>
                 </Row>
@@ -72,12 +74,12 @@ class Project extends Component {
                   </div>
                   :
                   <div>
-                    {item.link==="no link"?
+                    {item.links.length === 0 ?
                     <Button variant="outline-light" onClick={() => this.handleShow(index)}>Read more</Button>
                     :
                     <div>
                       <Button variant="outline-light" onClick={() => this.handleShow(index)}>Read more</Button>
-                      <a href={item.link}>{item.linktext}</a>
+                      <a href={item.links[0]}>{item.linktext}</a>
                     </div>
                     }
                   </div>
