@@ -221,3 +221,8 @@
   animation-delay: 10s;
 
 }
+
+.full-screen-modal {
+  max-width: 100%;
+  width: 100%;
+}

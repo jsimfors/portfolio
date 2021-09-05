@@ -6,12 +6,12 @@ const preWorkData =
             title:"Ericsson R&D Internship",
             subtitle: "Full-stack Development in Typescript, React & Angular. UI design. UX research. ",
             img:"ericsson.png",
-            info:"I am spending this summer at Ericsson, as an intern in Research & Development. I am solely responsible to create a proof of concept for improving an internal site. That includes the user experience research, user interface design and source code for both an Angular and React imlpementation.",
+            info:"As a Research & Development Intern at Ericsson my mission was to create a proof-of-concept for a new internal application. My job consisted of full-stack development in Typescript, React & Angular. I was also solely responsible for all the UX-research and the UI-design.",
             link:"no link",
             linktext: ""
         },
         {
-            title:"SPP Sandbox Internship",
+            title:"SPP Software Development Internship",
             subtitle: "Front-end development in React, Typescript & Less. UI design. UX research.",
             img:"sandbox.jpg",
             info:"During the summer of 2020 I was a part of  SPP’s Sandbox Summer Internship. Together with four other students we delivered an MVP, focusing on helping people close to retirement make good choices. The project included research, user-testing and development. My contribution was centered around the development and designing the user interface. The product was built in React, Typescript, Less, d3 and Material UI.",
