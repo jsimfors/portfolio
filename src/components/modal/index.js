@@ -12,8 +12,7 @@ class MyModalComponent extends Component {
 
         return (
             <div>
-                <Modal dialogClassName="full-screen-modal" show={this.props.show} onHide={() => this.props.onHide()}>
-
+                <Modal animation={false} dialogClassName="full-screen-modal" show={this.props.show} onHide={() => this.props.onHide()}>
                     <Modal.Header closeButton>
                         <Modal.Title>
                             {this.props.data.title}
@@ -22,12 +21,12 @@ class MyModalComponent extends Component {
 
                     <Modal.Body>
                     <Row>
-                        <Col lg={8} xs={12}>
+                        <Col md={{span: 8, offset: 2}}  xs={12} className="carousel-col">
                             <CarouselComponent
                                 images={this.props.data.images}
                             />                        
                         </Col>
-                        <Col>
+                        {/* <Col>
                             <div className="subtitle">
                                 {this.props.data.subtitle}
                             </div>
@@ -35,7 +34,7 @@ class MyModalComponent extends Component {
                                 <p>Tools used:</p>
                                 <ul>
                                 {this.props.data?.toolsUsed?.map((item, index) => (
-                                    <li>
+                                    <li key={index}>
                                         {item} 
                                     </li>
                                 ))}
@@ -44,13 +43,13 @@ class MyModalComponent extends Component {
                             My Main Responsibilities
                             <ul>
                             {this.props.data?.myResp?.map((item, index) => (
-                                    <li>
+                                    <li key={index}>
                                         {item} 
                                     </li>
                                 ))}
                             </ul>
 
-                        </Col>
+                        </Col> */}
                     </Row>
                     <Row>
                         <Col>
@@ -60,7 +59,7 @@ class MyModalComponent extends Component {
                     </Modal.Body>
                     <Modal.Footer>
                     {this.props.data?.links?.map((item, index) => (
-                        <a href={item.url}>
+                        <a href={item.url} key={index}>
                             <Button variant="secondary">{item.name}</Button>
                         </a>
                     ))}

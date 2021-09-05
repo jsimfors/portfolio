@@ -1,7 +1,10 @@
-import React, { Component, useState } from 'react';
+import React, { Component } from 'react';
 import { Row, Col, Button } from 'react-bootstrap';
 import MyModalComponent from '../modal';
 import preWorkData from './preWorkData';
+import computerGraphData from './computerGraph';
+import graphDesData from './graphDesData';
+import mathData from './mathData';
 import './styles.css'
 
 class Project extends Component {
@@ -21,7 +24,7 @@ class Project extends Component {
   handleShow = (num) => {
     this.setState({
       show: true,
-      data: preWorkData[num]
+      data: this.props.projectData[num]
     });
   };
 
@@ -34,8 +37,7 @@ class Project extends Component {
   render() {
     return (
       // TODO: Replace with:
-      // this.props.projectData.map((item, index) => {
-      preWorkData.map((item, index) => {
+      this.props.projectData.map((item, index) => {
         return (
           <div className="work-section" key={index}>
             <Row>
@@ -58,9 +60,9 @@ class Project extends Component {
                 </Row>
                 <Row className="button-nav-bar">
                   <Col>
-                  {item.link==="video"? 
+                  {/* {item.link==="video"? 
+                  TODO: Move to Modal
                   <div>
-                    
                     <Button variant="outline-light" onClick={() => this.handleShow(index)}>Read more</Button>
                     <div onClick={() => {this.setState({showVideo: !this.state.showVideo})}} id="special-link">{this.state.showVideo?"Hide ":""}Video demo</div>
 
@@ -72,18 +74,12 @@ class Project extends Component {
                       }
                     </div>
                   </div>
-                  :
+                  : */}
                   <div>
-                    {item.links.length === 0 ?
                     <Button variant="outline-light" onClick={() => this.handleShow(index)}>Read more</Button>
-                    :
-                    <div>
-                      <Button variant="outline-light" onClick={() => this.handleShow(index)}>Read more</Button>
-                      <a href={item.links[0]}>{item.linktext}</a>
-                    </div>
+                    {item.linktext?.length !== 0 ? <a href={item.links[0].url}>{item.linktext}</a> : <div/>
                     }
                   </div>
-                  }
                   </Col>
                 </Row>
               </Col>
