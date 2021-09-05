@@ -10,40 +10,22 @@ class Project extends Component {
 
     this.state = {
       show: false,
-      data: {}
+      data: {},
+      showVideo: false,
     };
   }
-  // const [showVideo, setShowVideo] = useState(false);
+
+  //const [showVideo, setShowVideo] = useState(false);
   // const onVideoClick = () => {showVideo?setShowVideo(false):setShowVideo(true)}
 
   handleShow = (num) => {
-    const myObject = preWorkData;
-
-    // const myObject = [
-    //   {
-    //     id: 1,
-    //     name: 'Victor Rippin',
-    //     address: '4032 Cordia Streets'
-    //   }, {
-    //     id: 2,
-    //     name: 'Jamey Zieme',
-    //     address: '3733 Tremblay Throughway'
-    //   }, {
-    //     id: 3,
-    //     name: 'Madelyn Ruecker Sr.',
-    //     address: '44487 Reba Drive'
-    //   },
-    // ];
-
     this.setState({
       show: true,
       data: preWorkData[num]
     });
   };
 
-  handleClose = (fromModal) => {
-    alert(fromModal.msg);
-
+  handleClose = () => {
     this.setState({
       show: false
     });
@@ -70,10 +52,6 @@ class Project extends Component {
                   <div className="innerText">              
                     {item.info}
                   </div>
-                  {/* -------------- */}
-                  <Button variant="primary" onClick={() => this.handleShow(index)} >
-                    Launch Bootstrap Modal
-                  </Button>
                   </Col>
                 </Row>
                 <Row className="button-nav-bar">
@@ -81,38 +59,29 @@ class Project extends Component {
                   {item.link==="video"? 
                   <div>
                     
-                    <Button variant="outline-light">Read more</Button>
-                    {/* <div onClick={onVideoClick} id="special-link">{showVideo?"Hide":""}Video demo</div> */}
-                    <div>Video demo</div>
+                    <Button variant="outline-light" onClick={() => this.handleShow(index)}>Read more</Button>
+                    <div onClick={() => {this.setState({showVideo: !this.state.showVideo})}} id="special-link">{this.state.showVideo?"Hide ":""}Video demo</div>
 
-                    {/* <div>
-                      { showVideo ? 
+                    <div>
+                      { this.state.showVideo ? 
                       <iframe src="https://drive.google.com/file/d/1l7Il52AvpVanFW4m_W4RDqSxBlD8BPE7/preview" title="sandbox-video" width="640" height="360" frameBorder="0" allowFullScreen></iframe>
                       :
                       null
                       }
-                    </div> */}
+                    </div>
                   </div>
                   :
                   <div>
                     {item.link==="no link"?
-                    <Button variant="outline-light">Read more</Button>
+                    <Button variant="outline-light" onClick={() => this.handleShow(index)}>Read more</Button>
                     :
                     <div>
-                      <Button variant="outline-light">Read more</Button>
+                      <Button variant="outline-light" onClick={() => this.handleShow(index)}>Read more</Button>
                       <a href={item.link}>{item.linktext}</a>
                     </div>
                     }
                   </div>
                   }
-                  </Col>
-                  <Col>
-                    <div className="tools-bar">
-                      <p>TOOLS USED:</p>
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png"/>
-                      <img src="https://nextsoftware.io/files/images/logos/main/reactjs-logo.png"/>
-                      <img src="https://www.easyprogramming.net/logo/js.png"/>
-                    </div>
                   </Col>
                 </Row>
               </Col>

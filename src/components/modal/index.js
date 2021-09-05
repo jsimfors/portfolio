@@ -1,8 +1,10 @@
 // src/components/bootstrap-carousel.component.js
 import React, { Component } from "react";
+import './styles.css';
 
-import { Modal, Button } from 'react-bootstrap';
+import { Modal, Row, Col, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import CarouselComponent from '../carousel'
 
 class MyModalComponent extends Component {
 
@@ -10,7 +12,7 @@ class MyModalComponent extends Component {
 
         return (
             <div>
-                <Modal show={this.props.show} onHide={() => this.props.onHide({ msg: 'Cross Icon Clicked!' })}>
+                <Modal dialogClassName="full-screen-modal" show={this.props.show} onHide={() => this.props.onHide()}>
 
                     <Modal.Header closeButton>
                         <Modal.Title>
@@ -19,17 +21,54 @@ class MyModalComponent extends Component {
                     </Modal.Header>
 
                     <Modal.Body>
-                        {this.props.data.subtitle}
+                    <Row>
+                        <Col lg={8} xs={12}>
+                            <CarouselComponent
+                            images={'ericsson.png'}
+                            />                        
+                            {/* {this.props.data.img ? <img src={require('../../imgs/' + this.props.data.img)} alt="printscreen-page"/> : <div/>} */}
+                        </Col>
+                        <Col>
+                            <div className="subtitle">
+                                {this.props.data.subtitle}
+                            </div>
+                            <div className="tools-bar">
+                                <p>Tools used:</p>
+                                <ul>
+                                    <li>
+                                        Python <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png"/>
+                                    </li>
+                                    <li>
+                                        React <img src="https://nextsoftware.io/files/images/logos/main/reactjs-logo.png"/> 
+                                    </li>
+                                    <li>
+                                        Javascript <img src="https://www.easyprogramming.net/logo/js.png"/>
+                                    </li>
+                                </ul>
+                            </div>
+                            My Main Responsibilities
+                            <ul>
+                                <li>
+                                    Implementing the API
+                                </li>
+                                <li>
+                                    The user interface design
+                                </li>
+                            </ul>
+
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
                         {this.props.data.info}
-                        {/* <img src={require('../../imgs/' + item.img)} alt="printscreen-page"/> */}
-
+                        </Col>
+                    </Row>
                     </Modal.Body>
-
                     <Modal.Footer>
-                        <Button variant="secondary" onClick={() => this.props.onClick({ msg: 'Modal Closed!' })} >Close</Button>
-                        <Button variant="primary" onClick={() => this.props.onClick({ msg: 'Modal Submitted!' })}  >Submit</Button>
+                        <Button variant="secondary">Demo</Button>
+                        <Button variant="secondary">Github Repository</Button>
+                        <Button variant="secondary">Read the Report</Button>
                     </Modal.Footer>
-
                 </Modal>
             </div>
         )

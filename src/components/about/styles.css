@@ -12,6 +12,12 @@
     text-align: left;
   }
 
+
+  .about-container a {
+    color:aquamarine;
+    text-decoration: underline;
+  }
+
   .about-container #aboutImg {
     max-width: 300px;
     margin-bottom: 20px;

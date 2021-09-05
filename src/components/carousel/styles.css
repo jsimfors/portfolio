@@ -1,0 +1,14 @@
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+    color: black;
+}
+
+.carousel, .carousel-inner {
+    cursor: default !important;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    cursor: pointer !important;
+}
