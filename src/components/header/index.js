@@ -16,7 +16,7 @@ function Header() {
           <img src={name} alt="name" id="nameimg"/>
         </Col>
         <Col md={7} lg={8} id="headertext">
-          Hi, I’m Johanna, a front-end developer and an MSc student in Interactive Media Technology. I love to code and have a sweet spot for good design.
+          Hi, I’m Johanna, a software developer and an MSc student in Interactive Media Technology. I love to code and have a sweet spot for good design.
         </Col>
       </Row>
       <Row>

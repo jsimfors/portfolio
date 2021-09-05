@@ -6,8 +6,8 @@
   color: #F7FFF7;
   font-size: 28px;
   font-weight: 300;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
   -webkit-box-shadow: inset 0px 0px 34px 4px rgba(0,0,0,1);
   -moz-box-shadow: inset 0px 0px 34px 4px rgba(0,0,0,1);
   box-shadow: inset 0px 0px 34px 4px rgba(0,0,0,1);
@@ -16,7 +16,7 @@
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;  
+  transition: all 0.3s ease-in-out; 
 }
 
 .work-container:hover {
@@ -104,10 +104,15 @@
   margin-bottom: 30px;
   font-size: medium;
   line-height: 1.5;
+  background-color: #ffffff0d;
 }
 
 .work-section {
   margin-top: 30px;
+}
+
+.work-section button {
+  margin-right: 10px;
 }
 
 .work-section .title, .skills-section .title {
@@ -129,15 +134,50 @@
   margin-left: 7px;
 }
 
+/* Left side (image and tools) */
 .work-section img {
   max-width: 100%;
   margin-top: 25px;
   margin-bottom: 20px;
 }
 
+.tools-bar {
+  font-size: smaller;
+  font-weight: bolder;
+  text-align: right;
+  color: #8fdfe8;
+}
+
+.tools-bar p {
+  display: inline;
+  margin-right: 10px;
+  vertical-align: bottom;
+  font-style: italic;
+}
+
+.tools-bar img {
+  max-width: 32px;
+  margin: 5px 5px 0px 0px;
+  filter:saturate(0.5);
+}
+
+.tools-bar img:hover {
+  transform: scale(1.3);
+  filter:saturate(1);
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;  
+}
+
 .work-section .innerText  {
   margin-bottom: 10px;
 
+}
+
+/* Bottom bar: */
+.button-nav-bar {
+  margin-top: 30px;
 }
  .work-section a {
   color: #8fdfe8 !important;
@@ -146,6 +186,7 @@
 #special-link {
   margin-bottom: 10px;
   color: #8fdfe8;
+  display: inline;
 }
 
 #special-link:hover {
@@ -154,4 +195,29 @@
 
 #insta-text {
   margin-top: 20px;
+}
+
+/* Button animation */
+@keyframes wiggle {
+  0% { transform: rotate(0deg); }
+  1% { transform: rotate(-2deg); }
+  2% { transform: rotate(2deg); }
+  3% { transform: rotate(-2deg); }
+  4% { transform: rotate(2deg); }
+  5% { transform: rotate(-2deg); }
+  6% { transform: rotate(2deg); }
+  7% { transform: rotate(-2deg); }
+  8% { transform: rotate(2deg); }
+
+  10%, 100% {
+    transform: rotate(0deg); 
+  }
+
+}
+
+.button-nav-bar button {
+  display: inline-block;
+  animation: wiggle 15s ease infinite;
+  animation-delay: 10s;
+
 }

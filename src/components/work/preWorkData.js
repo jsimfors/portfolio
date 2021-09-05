@@ -3,8 +3,16 @@ import React from 'react'
 const preWorkData = 
     [
         {
+            title:"Ericsson R&D Internship",
+            subtitle: "Full-stack Development in Typescript, React & Angular. UI design. UX research. ",
+            img:"ericsson.png",
+            info:"I am spending this summer at Ericsson, as an intern in Research & Development. I am solely responsible to create a proof of concept for improving an internal site. That includes the user experience research, user interface design and source code for both an Angular and React imlpementation.",
+            link:"no link",
+            linktext: ""
+        },
+        {
             title:"SPP Sandbox Internship",
-            subtitle: "UX, UI & front-end development in React, Typescript & Less.",
+            subtitle: "Front-end development in React, Typescript & Less. UI design. UX research.",
             img:"sandbox.jpg",
             info:"During the summer of 2020 I was a part of  SPP’s Sandbox Summer Internship. Together with four other students we delivered an MVP, focusing on helping people close to retirement make good choices. The project included research, user-testing and development. My contribution was centered around the development and designing the user interface. The product was built in React, Typescript, Less, d3 and Material UI.",
             link:"video",
@@ -12,7 +20,7 @@ const preWorkData =
         },
         {
             title:"Smarty Pantz",
-            subtitle:"UI design & full-stack development with React, Spotify’s API & Cloud Firestore",
+            subtitle:"Full-stack development with React, Spotify’s API & Cloud Firestore. UI design.",
             img:"smartypantz.png",
             info:<div>Smarty Pantz is a game that tests your knowledge on music in different categories. The game is played on the web, and built in React, HTML and CSS with Spotify’s API and the Baas Cloud Firestore.
                 The game was built as a part of the course <i>DH2642 Interaction Programming and the Dynamic Web</i> at KTH. Besides development, I also did the user interface design. Click the link below to play the game - and find out if you are the smartest of Smarty Pantz… or just a dumb sock.</div>,

@@ -1,9 +1,9 @@
 import React from "react";
-import { Row, Col} from 'react-bootstrap';
+import { Row, Col, Button } from 'react-bootstrap';
 
 export default function Project({projectData}) {
   const [showVideo, setShowVideo] = React.useState(false);
-  const onClick = () => {showVideo?setShowVideo(false):setShowVideo(true)}
+  const onVideoClick = () => {showVideo?setShowVideo(false):setShowVideo(true)}
 
   return (
     projectData.map((item, index) => {
@@ -14,35 +14,55 @@ export default function Project({projectData}) {
               <img src={require('../../imgs/' + item.img)} alt="printscreen-page"/>
             </Col>
             <Col>
-              <div className="title">
-                {item.title}
-              </div>
-              <div className="subtitle">
-                {item.subtitle}
-              </div>
-              <div className="innerText">              
-                {item.info}
-              </div>
-              {item.link==="video"? 
-              <div>
-                <div onClick={onClick} id="special-link">{showVideo?"Hide":"Show"} video-demo of the site</div>
+              <Row>
+                <Col>
+                <div className="title">
+                  {item.title}
+                </div>
+                <div className="subtitle">
+                  {item.subtitle}
+                </div>
+                <div className="innerText">              
+                  {item.info}
+                </div>
+                </Col>
+              </Row>
+              <Row className="button-nav-bar">
+                <Col>
+                {item.link==="video"? 
                 <div>
-                  { showVideo ? 
-                  <iframe src="https://drive.google.com/file/d/1l7Il52AvpVanFW4m_W4RDqSxBlD8BPE7/preview" title="sandbox-video" width="640" height="360" frameBorder="0" allowFullScreen></iframe>
+                  <Button variant="outline-light">Read more</Button>
+                  <div onClick={onVideoClick} id="special-link">{showVideo?"Hide":""}Video demo</div>
+                  <div>
+                    { showVideo ? 
+                    <iframe src="https://drive.google.com/file/d/1l7Il52AvpVanFW4m_W4RDqSxBlD8BPE7/preview" title="sandbox-video" width="640" height="360" frameBorder="0" allowFullScreen></iframe>
+                    :
+                    null
+                    }
+                  </div>
+                </div>
+                :
+                <div>
+                  {item.link==="no link"?
+                  <Button variant="outline-light">Read more</Button>
                   :
-                    null 
+                  <div>
+                    <Button variant="outline-light">Read more</Button>
+                    <a href={item.link}>{item.linktext}</a>
+                  </div>
                   }
                 </div>
-              </div>
-              :
-              <div>
-                {item.link==="no link"?
-                null
-                :
-                <a href={item.link}>{item.linktext}</a>
                 }
-              </div>
-              }
+                </Col>
+                <Col>
+                  <div className="tools-bar">
+                    <p>TOOLS USED:</p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png"/>
+                    <img src="https://nextsoftware.io/files/images/logos/main/reactjs-logo.png"/>
+                    <img src="https://www.easyprogramming.net/logo/js.png"/>
+                  </div>
+                </Col>
+              </Row>
             </Col>
           </Row>
           {item.title==="Sole Trader Company"?
