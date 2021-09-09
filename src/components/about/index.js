@@ -12,7 +12,7 @@ return (
                 <br/>
                 Hi, my name is Johanna, I am in my fifth and final year of my 
                 Master of Science in Engineering at KTH Royal Institute of Technology,
-                expected graduation July 2022.
+                expected graduation June 2022.
                 I am studying for my Master's in <a href="https://www.kth.se/en/studies/master/interactivemediatechnology">Interactive Media Technology</a>,
                 specializing in Visual Media. 
                 
