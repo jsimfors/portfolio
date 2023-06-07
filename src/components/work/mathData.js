@@ -25,6 +25,27 @@ const mathData =
         linktext: "Mathnotes - website"      
     },
     {
+        title:"Teaching Assistant of the Year",
+        subtitle: "I was given the award Teaching assistant of the year, for my work in with the class Multivariable Calculus, 2021",
+        images: [
+            {
+                source: "teachingawyear.jpeg",
+                caption: "Me and my smug face holding my little award - together with talented Malin Hansen, KTH S-Chapter 2021 teacher of the year. "
+            }
+        ],
+        toolsUsed: [""],
+        myResp: ["Job 1", "Job 2", "Job 3"],
+        infoShort:<div>
+            Not only do I get the chance to go on and on and on and on about the beauty of integrals and eigenvectors for <i>hours</i> and people <i>listen?!</i> 2021 I also got the honor of receiving the award <i>Teaching Assistant of The Year</i>, from the S-Chapter at KTH. 
+        </div>,
+        infoLong:<div>
+        Not only do I get the chance to go on and on and on and on about the beauty of integrals and eigenvectors for <i>hours</i> and people <i>listen?!</i> 2021 I also got the honor of receiving the award <i>Teaching Assistant of The Year</i>, from the S-Chapter at KTH. 
+    </div>,
+        links: [
+        ],
+        linktext: ""      
+    },
+    {
         title:"Content Creator, Probability Theory and Statistics",
         subtitle: "Producing formula sheets and summaries for classes in probability theory and statistics",
         images: [

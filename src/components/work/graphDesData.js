@@ -10,6 +10,23 @@ const graphDesData =
                 source: "sladdon.png",
                 caption: ""
             },
+            {
+                source: "sladdon5.png",
+                caption: ""
+            },
+            {
+                source: "sladdon2.png",
+                caption: ""
+            },
+            {
+                source: "sladdon3.png",
+                caption: ""
+            },
+            {
+                source: "sladdon4.png",
+                caption: ""
+            },
+            
         ],
         infoShort:<div>In this project I, together with my team, decided to dive deep into Stockholm's top travel app - SL, with the goal to find new design solutions for the new problems that have occurred due to corona. The project was centered around the question 
             “How can technology be used to minimize physical interaction?”. Technical tools used was Miro, for the discover and define phase, and Figma and Marvel for the develop and deliver phase. User research was made firstly through surveys for quantitative 
@@ -43,9 +60,22 @@ const graphDesData =
                 source: "studs.png",
                 caption: ""
             },
+            {
+                source: "studs2.png",
+                caption: ""
+            },
+            {
+                source: "studs3.png",
+                caption: ""
+            },
             ],
         infoShort:<div>I was one of the handpicked master students selected for the advanced course <i>AI2151 Industrial Development and Entrepreneurship</i>, also known as Studs, at KTH. The course consists of students in master programs in computer science and I am the Art Director. In my role, I am in charge of many different design processes. These include designing the UI for our mobile app, find good ways to visualize data for our feedback-reports, and also creating content for our social channels. The work is for the most part done in InDesign, Illustrator and Figma.</div>,
-        infoLong:<div>I was one of the handpicked master students selected for the advanced course <i>AI2151 Industrial Development and Entrepreneurship</i>, also known as Studs, at KTH. The course consists of students in master programs in computer science and I am the Art Director. In my role, I am in charge of many different design processes. These include designing the UI for our mobile app, find good ways to visualize data for our feedback-reports, and also creating content for our social channels. The work is for the most part done in InDesign, Illustrator and Figma.</div>,
+        infoLong:<div>I was one of the handpicked master students selected for the advanced course <i>AI2151 Industrial Development and Entrepreneurship</i>, 
+        also known as Studs, at KTH. The course consists of students in master programs in computer science and I am the 
+        Art Director. In my role, I am in charge of many different design processes. These include designing the UI for our 
+        mobile app, find good ways to visualize data for our feedback-reports, and also creating content for our social channels. 
+        I was also responsible for the layout of the report we handed in as the major examination moment, affecting all 31 of us. 
+        The work was done in InDesign, Illustrator and Figma, and the collaboration between us was centered around Notion and Slack.</div>,
         toolsUsed: ["Typescript", "React", "Angular", "CSS", "ESLint"],
         myResp: ["Job 1", "Job 2", "Job 3"],
         links: [
@@ -131,11 +161,31 @@ const graphDesData =
         images: [
             {
                 source: "comicphoto.png",
-                caption: ""
+                caption: "One of my publisjed compis"
+            },
+            {
+                source: "insta.png",
+                caption: "My instagram feed"
+            },
+            {
+                source: "insta2.jpg",
+                caption: "more of my instagram feed"
+            },
+            {
+                source: "comic3.png",
+                caption: "One of my comics - read them all at my insta @simforsspaning"
+            },
+            {
+                source: "comic4.png",
+                caption: "One of my comics - read them all at my insta @simforsspaning"
+            },
+            {
+                source: "comic5.png",
+                caption: "One of my comics - read them all at my insta @simforsspaning"
             },
         ],
-        infoShort:"I started my own sole trader company in 2013, and have been working as a freelance graphic designer/illustrator since then. I mostly do comics, and had my own comic strip in Jönköpingsposten 2011-2019. I am still doing them, but these days on instagram.",
-        infoLong:"I started my own sole trader company in 2013, and have been working as a freelance graphic designer/illustrator since then. I mostly do comics, and had my own comic strip in Jönköpingsposten 2011-2019. I am still doing them, but these days on instagram.",
+        infoShort:"I started my own sole trader company in 2013, and have been working as a freelance graphic designer/illustrator since then. I mostly do comics, and had my own comic strip in Jönköpingsposten 2011-2019. I am still doing them, but these days on instagram.  I also spend a lot of time on my graphic-design based instagram.",
+        infoLong:"I started my own sole trader company in 2013, and have been working as a freelance graphic designer/illustrator since then. I mostly do comics, and had my own comic strip in Jönköpingsposten 2011-2019. I am still doing them, but these days on instagram. I also spend a lot of time on my graphic-design based instagram.",
         toolsUsed: ["Typescript", "React", "Angular", "CSS", "ESLint"],
         myResp: ["Job 1", "Job 2", "Job 3"],
         

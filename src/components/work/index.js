@@ -17,7 +17,7 @@ function Work() {
                 <Col md={{ span: 12, offset: 0 }}  xs={12}>
                     <div className="work-container-inner">
                         <h3>PREVIOUS WORK</h3>
-                        <Collapsible trigger="DEVELOPMENT"> 
+                        <Collapsible trigger="SOFTWARE DEVELOPMENT"> 
                             <Project
                                 projectData={preWorkData}
                             />
@@ -32,22 +32,25 @@ function Work() {
                                 projectData={graphDesData}
                             />
                         </Collapsible>
-                        <Collapsible trigger="MATH">
+                        <Collapsible trigger="MATHEMATICS">
                             <Project
                                 projectData={mathData}
                             />
                         </Collapsible>
                         <div className="skills-section">
                             <Collapsible trigger="SKILLS">
-                                <div className="inner-skill-section">              
+                            <div className="inner-skill-section">              
                                     <div className="subtitle">Programming &#38; Markup Languages</div>
-                                    JavaScript, TypeScript, Dart, Python, HTML, CSS/Less/Sass, SQL, XML, PHP, Kotlin and a good basic Java knowledge.<br/>
+                                    JavaScript, TypeScript, Dart, Python, Swift, HTML, Java, CSS/Less/Sass, SQL, XML, PHP &#38; Kotlin<br/>
                                     <br/>
                                     <div className="subtitle">Frameworks, Libraries &#38; SDK's </div>
                                     React, React Native, Flutter, d3, Onsen UI, Material UI.<br/>
                                     <br/>
+                                    <div className="subtitle">Design skills</div>
+                                    UI Design, UX Research, Figma, Miro, Photoshop, Illustrator, Premier Pro, After Effects, InDesign, Blender.<br/>
+                                    <br/>
                                     <div className="subtitle">Other skills</div>
-                                    Photoshop, Illustrator, Premier Pro, After Effects, InDesign, Blender.<br/>
+                                    Node.js, Github, Azure DevOps, Trello, Notion<br/>
                                     <br/>
                                     <div className="subtitle">Bonus skill!</div>
                                     I’m a qualified barista! Let's talk coffee! 
