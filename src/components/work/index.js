@@ -44,7 +44,7 @@ function Work() {
                                     JavaScript, TypeScript, Dart, Python, Swift, HTML, Java, CSS/Less/Sass, SQL, XML, PHP &#38; Kotlin<br/>
                                     <br/>
                                     <div className="subtitle">Frameworks, Libraries &#38; SDK's </div>
-                                    React, React Native, Flutter, d3, Onsen UI, Material UI.<br/>
+                                    React, React Native, Flutter, d3, SwiftUI, Onsen UI, Material UI.<br/>
                                     <br/>
                                     <div className="subtitle">Design skills</div>
                                     UI Design, UX Research, Figma, Miro, Photoshop, Illustrator, Premier Pro, After Effects, InDesign, Blender.<br/>

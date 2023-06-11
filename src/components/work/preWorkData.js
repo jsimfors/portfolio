@@ -5,85 +5,169 @@ const preWorkData  =
 
 [
     {
-        title:"Swift Event Finder",
-        subtitle: "TBC ",
+        title:"Ericsson Research & Development Internship",
+        subtitle: "Full-stack Development in Typescript, Sass, React & Angular. UI design. UX research. ",
         images: [
             {
-                source: "tbc.png",
-                caption: "TBC"
+                source: "ericsson.png",
+                caption: "My Internship at Ericsson"
+            },
+            {
+                source: "ericsson2.png",
+                caption: "A big part of my job was to talk to users, find their pain points, turn the pain points into design suggestions, develop those, and then test those on the user."
             }
             ],
         infoShort:<div>
-        tbc
+            During the summer of 2021 I was an <i>Research &amp; Development Intern</i> at Ericsson. My mission was to create a proof-of-concept and improve an existing internal application. 
+            The page was functioning, but built in AngularJS, and followed an old graphical profile. 
+            I rebuilt the page in both React Typescript and Angular, and investigated what worked the best.
+            My job also consisted of user experience research and user interface design.
             </div>,
         infoLong:
-        <div> tbc </div>,
+        <div>
+            During the summer of 2021 I was an <i>Research &amp; Development Intern</i> at Ericsson. My mission was to create a proof-of-concept and improve an existing internal application. 
+            The page was functioning, but built in AngularJS, and followed an old graphical profile. 
+            I rebuilt the page in both React Typescript and Angular, and investigated what worked the best.
+            My job also consisted of user experience research and user interface design. 
+            The UX research was mostly in-depth interviews and think out loud's with the current users of the application.
+            The interface design was centered around Figma, Miro and then implemented to the page with Sass.
+            </div>,
         links: [
         ],
         linktext: ""
     },
+    
     {
-        title:"Master Thesis",
+        title:"SPP Software Development Internship",
+        subtitle: "Front-end development in React, Typescript & Less. UI design. UX research.",
+        images: [
+            {
+                source: "sandbox.jpg",
+                caption: ""
+            },
+            {
+                source: "sandbox2.png",
+                caption: ""
+            },
+            {
+                source: "sandbox3.png",
+                caption: ""
+            },
+            {
+                source: "sandbox4.png",
+                caption: ""
+            },
+            {
+                source: "sandbox5.png",
+                caption: ""
+            },
+            ],
+        infoShort:<div>
+            During the summer of 2020 I was a part of  <i>SPP’s Sandbox Summer Internship</i>. Together with four other students we delivered an MVP, 
+            focusing on helping people close to retirement make good choices. The project included research, user-testing and development.
+            My contribution was centered around the development and designing the user interface. The product was built in React, Typescript, 
+            Less, d3 and Material UI</div>,
+        infoLong:<div>
+        During the summer of 2020 I was a part of  <i>SPP’s Sandbox Summer Internship</i>. Together with four other students we delivered an MVP, 
+        focusing on helping people close to retirement make good choices. The project included research, user-testing and development.
+        My contribution was centered around the development and designing the user interface. The product was built in React, Typescript, 
+        Less, d3 and Material UI</div>,
+        links: [],
+        linktext: ""
+    },
+    {
+        title:"Master Thesis & Software Development Internship",
         subtitle: "Full-stack Development in Typescript, Sass, React Native UI design. UX research. ",
         images: [
-            {
-                source: "tbc.png",
-                caption: "TBC"
-            }
+                {
+                    source: "exphobia1.png",
+                    caption: ""
+                },
+                {
+                    source: "exphobia2.png",
+                    caption: ""
+                },
+                {
+                    source: "exphobia3.png",
+                    caption: ""
+                },
+                {
+                    source: "exphobia4.png",
+                    caption: ""
+                },
+                {
+                    source: "exphobia6.png",
+                    caption: ""
+                },
+                {
+                    source: "exphobia5.png",
+                    caption: ""
+                }
             ],
         infoShort:<div>
-        tbc
+        During my master's thesis in Computer Science and Engineering, specializing in Interactive Media Technology, 
+        I wanted to combine my interest in behavioral psychology and my want to use technology to do good. I therefore started 
+        my Master thesis internship at Alex Therapeutics - a Stockholm startup focusing on digital therapeutics.
+
+        During the spring of 2022, I researched, designed, developed, and user-tested the smartphone application Exphobia, and
+        based on this wrote my master's thesis.The work is titled "Exposure Therapy for Agoraphobia Using Standalone Digital Therapeutics", and can be found in 
+        full-length at the Diva Portal (diva-portal.org).
             </div>,
         infoLong:
-        <div> tbc </div>,
+        <div>         
+            During my master's thesis in Computer Science and Engineering, specializing in Interactive Media Technology, 
+        I wanted to combine my interest in behavioral psychology and my want to use technology to do good. I therefore started 
+        my Master thesis internship at Alex Therapeutics - a Stockholm startup focusing on digital therapeutics.
+
+        During the spring of 2022, I researched, designed, developed, and user-tested the smartphone application Exphobia, and
+        based on this wrote my master's thesis.The work is titled "Exposure Therapy for Agoraphobia Using Standalone Digital Therapeutics", and can be found in 
+        full-length at the Diva Portal (diva-portal.org).</div>,
         links: [
+            {
+                name: "Link to full report",
+                url: "http://www.diva-portal.org/smash/get/diva2:1696792/FULLTEXT01.pdf"
+            }
         ],
-        linktext: ""
+        linktext: "Link to full report"
     },
     {
-        title:"Voice controlled Game on the Furhat Robot",
-        subtitle: "Built in Kotlin with the Furhat SDK.",
+        title:"The Event Finder",
+        subtitle: "iOS and WearOS Development with SwiftUI",
         images: [
             {
-                source: "furhat1.png",
-                caption: "Image of two Furhat robots"
+                source: "eventFinder1.png",
+                caption: ""
             },
             {
-                source: "furhat2.png",
-                caption: "Screenshot from the trailer to the game"
+                source: "eventFinder2.png",
+                caption: ""
             },
             {
-                source: "furhat3.png",
-                caption: "Screenshot from the trailer to the game"
-            },
-            {
-                source: "furhat4.png",
-                caption: "Part of the planning of the game, made in Miro"
+                source: "eventFinder3.png",
+                caption: ""
             }
             ],
         infoShort:<div>
-        Murder Mysery is a multimodal cluedo-inspired game based on speech recognition. The player talks to different characters displayed on the Furhat robot, and tries to find out who is the murderer.  The actions, phrases and facial expressions of the robot throughout the game is based on the latest research within multimodal interaction and lie detection.A user study was also performed to evaluate the naturalness of these expressions, and if they affected the robots trustworthiness. 
+        The Event Finder is a WearOS and iOS app to find new events, made as a part of the "SwiftUI 2.0 Apps on iPhone, iPad, Mac, Watch & TV" course on Udemy.
+
+The course is an intermediate Swift course that focuses on the funtamentals of SwiftUI, including building the app for several iOS platforms, where I have focused on the mobile and watch implementation.
             </div>,
         infoLong:
-        <div>This project consists of two parts, firstly, the multimodal cluedo-inspired game based on speech recognition. Where a player talks to different characters displayed on the Furhat robot, and tries to find out who is the murderer. Sounds complex? Check out the video linked below the get to the trailer!
+        <div> The Event Finder is a WearOS and iOS app to find new events, made as a part of the "SwiftUI 2.0 Apps on iPhone, iPad, Mac, Watch & TV" course on Udemy.
 
-        The second part of the project was a user study. The action, phrases and facial expressions of the robot throughout the game was actually based on the latest research within multimodal interaction and lie detection. It was investigated whether and how non-verbal cues and different sentence structures can impact the perceived pleasantness and naturalness in interactions with a virtual agent, and how facial gestures can be used to make a robot seem more or less trustworthy. Through interviews conducted with four participants, qualitative data were also generated. Results suggest that some non-verbal cues, such as facial gestures, sometimes affect the perceived trustworthiness of the interaction. It was easier for the participants to decide whether they thought of the virtual agent as trustworthy when the facial gestures were more enhanced. </div>,
+        The course is an intermediate Swift course that focuses on the funtamentals of SwiftUI, including building the app for several iOS platforms, where I have focused on the mobile and watch implementation.
+        
+        From the course website: "You'll get to learn the true magic of SwiftUI as we get to reuse a size-able chunk of our codebase across each platform. And, you'll see how to craft your apps for each platform to truly take advantage of each device to thrill your users. Make Apps and Widgets for iOS 14, macOS 11, watchOS 7 and tvOS 14 using Xcode 12, Swift 5, WidgetKit and Apple Watch" </div>,
         links: [
             {
-                name: "See the trailer",
-                url: "https://drive.google.com/file/d/1_eamvoXp1FuLZ4WXzg1GqdJsbGW1B8dT/view?usp=sharing"
-            },
-            {
                 name: "Github Repository",
-                url: "https://github.com/annagustavsson/cluedo",
-            },
-            {
-                name: "Read the report",
-                url: " https://drive.google.com/file/d/1szyGjrrile3x5nudOOdQwAeV_bKcTvMk/view?usp=sharing",
-            },
+                url: "https://github.com/jsimfors/eventFinder"
+            }
         ],
-        linktext: "See the trailer"
+        linktext: "Github Repository"
     },
+
+
     {
         title:"The Startender",
         subtitle: "User interface design &  full-stack development in React Typescript, Sass, mongoDB, Node.js, Express & The Cocktail DB",
@@ -187,77 +271,7 @@ const preWorkData  =
         ],
         linktext: "Visit the website"
     },
-    {
-    title:"Ericsson Research & Development Internship",
-    subtitle: "Full-stack Development in Typescript, Sass, React & Angular. UI design. UX research. ",
-    images: [
-        {
-            source: "ericsson.png",
-            caption: "My Internship at Ericsson"
-        },
-        {
-            source: "ericsson2.png",
-            caption: "A big part of my job was to talk to users, find their pain points, turn the pain points into design suggestions, develop those, and then test those on the user."
-        }
-        ],
-    infoShort:<div>
-        During the summer of 2021 I was an <i>Research &amp; Development Intern</i> at Ericsson. My mission was to create a proof-of-concept and improve an existing internal application. 
-        The page was functioning, but built in AngularJS, and followed an old graphical profile. 
-        I rebuilt the page in both React Typescript and Angular, and investigated what worked the best.
-        My job also consisted of user experience research and user interface design.
-        </div>,
-    infoLong:
-    <div>
-        During the summer of 2021 I was an <i>Research &amp; Development Intern</i> at Ericsson. My mission was to create a proof-of-concept and improve an existing internal application. 
-        The page was functioning, but built in AngularJS, and followed an old graphical profile. 
-        I rebuilt the page in both React Typescript and Angular, and investigated what worked the best.
-        My job also consisted of user experience research and user interface design. 
-        The UX research was mostly in-depth interviews and think out loud's with the current users of the application.
-        The interface design was centered around Figma, Miro and then implemented to the page with Sass.
-        </div>,
-    links: [
-    ],
-    linktext: ""
-},
 
-{
-    title:"SPP Software Development Internship",
-    subtitle: "Front-end development in React, Typescript & Less. UI design. UX research.",
-    images: [
-        {
-            source: "sandbox.jpg",
-            caption: ""
-        },
-        {
-            source: "sandbox2.png",
-            caption: ""
-        },
-        {
-            source: "sandbox3.png",
-            caption: ""
-        },
-        {
-            source: "sandbox4.png",
-            caption: ""
-        },
-        {
-            source: "sandbox5.png",
-            caption: ""
-        },
-        ],
-    infoShort:<div>
-        During the summer of 2020 I was a part of  <i>SPP’s Sandbox Summer Internship</i>. Together with four other students we delivered an MVP, 
-        focusing on helping people close to retirement make good choices. The project included research, user-testing and development.
-        My contribution was centered around the development and designing the user interface. The product was built in React, Typescript, 
-        Less, d3 and Material UI</div>,
-    infoLong:<div>
-    During the summer of 2020 I was a part of  <i>SPP’s Sandbox Summer Internship</i>. Together with four other students we delivered an MVP, 
-    focusing on helping people close to retirement make good choices. The project included research, user-testing and development.
-    My contribution was centered around the development and designing the user interface. The product was built in React, Typescript, 
-    Less, d3 and Material UI</div>,
-    links: [],
-    linktext: ""
-},
     {
         title:"Smarty Pantz",
         subtitle:"User interface design & full-stack development in React, Javascript, Spotify Web API & Cloud Firestore",
@@ -568,7 +582,50 @@ const preWorkData  =
         linktext: "LIVE DEMO"
     },
   
-   
+    {
+        title:"Voice controlled Game on the Furhat Robot",
+        subtitle: "Built in Kotlin with the Furhat SDK.",
+        images: [
+            {
+                source: "furhat1.png",
+                caption: "Image of two Furhat robots"
+            },
+            {
+                source: "furhat2.png",
+                caption: "Screenshot from the trailer to the game"
+            },
+            {
+                source: "furhat3.png",
+                caption: "Screenshot from the trailer to the game"
+            },
+            {
+                source: "furhat4.png",
+                caption: "Part of the planning of the game, made in Miro"
+            }
+            ],
+        infoShort:<div>
+        Murder Mysery is a multimodal cluedo-inspired game based on speech recognition. The player talks to different characters displayed on the Furhat robot, and tries to find out who is the murderer.  The actions, phrases and facial expressions of the robot throughout the game is based on the latest research within multimodal interaction and lie detection.A user study was also performed to evaluate the naturalness of these expressions, and if they affected the robots trustworthiness. 
+            </div>,
+        infoLong:
+        <div>This project consists of two parts, firstly, the multimodal cluedo-inspired game based on speech recognition. Where a player talks to different characters displayed on the Furhat robot, and tries to find out who is the murderer. Sounds complex? Check out the video linked below the get to the trailer!
+
+        The second part of the project was a user study. The action, phrases and facial expressions of the robot throughout the game was actually based on the latest research within multimodal interaction and lie detection. It was investigated whether and how non-verbal cues and different sentence structures can impact the perceived pleasantness and naturalness in interactions with a virtual agent, and how facial gestures can be used to make a robot seem more or less trustworthy. Through interviews conducted with four participants, qualitative data were also generated. Results suggest that some non-verbal cues, such as facial gestures, sometimes affect the perceived trustworthiness of the interaction. It was easier for the participants to decide whether they thought of the virtual agent as trustworthy when the facial gestures were more enhanced. </div>,
+        links: [
+            {
+                name: "See the trailer",
+                url: "https://drive.google.com/file/d/1_eamvoXp1FuLZ4WXzg1GqdJsbGW1B8dT/view?usp=sharing"
+            },
+            {
+                name: "Github Repository",
+                url: "https://github.com/annagustavsson/cluedo",
+            },
+            {
+                name: "Read the report",
+                url: " https://drive.google.com/file/d/1szyGjrrile3x5nudOOdQwAeV_bKcTvMk/view?usp=sharing",
+            },
+        ],
+        linktext: "See the trailer"
+    },
     {
         title:"Math-app",
         subtitle: "UI design & full-stack development in React, Material UI & CSS",

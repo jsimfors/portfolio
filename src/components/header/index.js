@@ -16,7 +16,7 @@ function Header() {
           <img src={name} alt="name" id="nameimg"/>
         </Col>
         <Col md={7} lg={8} id="headertext">
-          Hi, I’m Johanna, a product designer and software developer.
+          Hi, I’m Johanna, a product designer and a software developer.
           I love to code, I love design and I have a sweet spot for the world where the two of them overlap.
           Welcome to my portfolio.
         </Col>
