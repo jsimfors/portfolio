@@ -1,10 +1,8 @@
-// src/components/bootstrap-carousel.component.js
 import React, { Component } from "react";
 import './styles.css';
-
 import { Modal, Row, Col, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import CarouselComponent from '../carousel'
+
 
 class MyModalComponent extends Component {
 
@@ -18,38 +16,18 @@ class MyModalComponent extends Component {
                             {this.props.data.title}
                         </Modal.Title>
                     </Modal.Header>
-
+                    
                     <Modal.Body>
                     <Row>
-                        <Col md={{span: 8, offset: 2}}  xs={12} className="carousel-col">
-                            <CarouselComponent
-                                images={this.props.data.images}
-                            />                        
+                    {this.props.data.images?.map((item, index) => (
+                        <Col>
+                            <img
+                            className="d-block w-100"
+                            src={require('../../imgs/' + item.source)}
+                            alt="First slide"
+                            />
                         </Col>
-                        {/* <Col>
-                            <div className="subtitle">
-                                {this.props.data.subtitle}
-                            </div>
-                            <div className="tools-bar">
-                                <p>Tools used:</p>
-                                <ul>
-                                {this.props.data?.toolsUsed?.map((item, index) => (
-                                    <li key={index}>
-                                        {item} 
-                                    </li>
-                                ))}
-                                </ul>
-                            </div>
-                            My Main Responsibilities
-                            <ul>
-                            {this.props.data?.myResp?.map((item, index) => (
-                                    <li key={index}>
-                                        {item} 
-                                    </li>
-                                ))}
-                            </ul>
-
-                        </Col> */}
+                    ))}
                     </Row>
                     <Row>
                         <Col>

@@ -46,14 +46,6 @@ const preWorkData  =
                 caption: ""
             },
             {
-                source: "sandbox2.png",
-                caption: ""
-            },
-            {
-                source: "sandbox3.png",
-                caption: ""
-            },
-            {
                 source: "sandbox4.png",
                 caption: ""
             },
@@ -88,19 +80,7 @@ const preWorkData  =
                     caption: ""
                 },
                 {
-                    source: "exphobia3.png",
-                    caption: ""
-                },
-                {
-                    source: "exphobia4.png",
-                    caption: ""
-                },
-                {
                     source: "exphobia6.png",
-                    caption: ""
-                },
-                {
-                    source: "exphobia5.png",
                     caption: ""
                 }
             ],
@@ -177,40 +157,16 @@ The course is an intermediate Swift course that focuses on the funtamentals of S
                 caption: "The landing page in dark mode"
             },
             {
-                source: "startender_land_light.png",
-                caption: "The landing page in light mode"
-            },
-            {
                 source: "startender11.png",
                 caption: "The tech stack we used"
             },
             {
-                source: "startender4.png",
+                source: "startender3.png",
                 caption: "Searching for a drink"
-            },
-            {
-                source: "startender8_light.png",
-                caption: "Modal of a drink, shown in light mode"
-            },
-            {
-                source: "startender8.png",
-                caption:  "Modal of a drink, shown in dark mode"
             },
             {
                 source: "startender13.png",
                 caption: "The page is also fully mobile responsive"
-            },
-            {
-                source: "startender6.png",
-                caption: "This user has written an insightful comment about the 'Coffee with Aquavit'"
-            },
-            {
-                source: "startender10.png",
-                caption: "My-page shows all the comments and favorite drinks of the logged-in user"
-            },
-            {
-                source: "startender12.png",
-                caption: "For this project we chose an agile way of working, where we had three shorter sprints. The work was managed through Git and an interactive schedule in Miro"
             },
             ],
         infoShort: <div>
@@ -281,24 +237,8 @@ The course is an intermediate Swift course that focuses on the funtamentals of S
                 caption: "The landing page"
             },
             {
-                source: "smartypantz2.png",
-                caption: "Playing in EDM mode"
-            },
-            {
                 source: "smartypantz3.png",
                 caption: "Playing in Hip-Hop mode"
-            },
-            {
-                source: "smartypantz4.png",
-                caption: "Highscore view."
-            },
-            {
-                source: "smartypantz5.png",
-                caption: "This talented player got it right in Rock-mode"
-            },
-            {
-                source: "smartypantz6.png",
-                caption: "Playing in classic mode"
             },
             {
                 source: "smartypantz7.png",
@@ -345,26 +285,6 @@ The course is an intermediate Swift course that focuses on the funtamentals of S
             {
                 source: "candychess1.png",
                 caption: "When clicking a piece, possible positions to go to lights up as green on the board. The user can not choose any position other than these"
-            },
-            {
-                source: "candychess2.png",
-                caption: "When one of opponents pieces has been eaten - the message field will update what just happened. Followed by a randomly generated word from the Candy Crush dictionary, such as Divine! Tasty! or why not, Sugar Crushing it!"
-            },
-            {
-                source: "candychess3.png",
-                caption: "The game keeps track of when a player has been checked. Yep, that multi-colored sugar sprinkled chocolate ball is indeed the king."
-            },
-            {
-                source: "candychess4.png",
-                caption: "And will not let the user make any silly moves when their Candy King is in danger."
-            },
-            {
-                source: "candychess5.png",
-                caption: "If a brave Candy Fish, also known as a pawn, makes it all the other way to the other side of the board, it will turn into a juicy gummy bear - also known as a queen."
-            },
-            {
-                source: "candychessuml.png",
-                caption: "Java Class-UML Diagram of program"
             },
         ], 
         infoShort:"A sweet Java based game built solely by me: a mashup between chess and Candy Crush. Two users play together on this smart game board. The board keeps track of who's turn it is, where it is ok to move pieces and when there is check mate. The board will even stop any silly moves that puts a user's own king in danger.",
@@ -635,33 +555,13 @@ The course is an intermediate Swift course that focuses on the funtamentals of S
                 caption: ""
             },
             {
-                source: "mathnotes2.png",
-                caption: ""
-            },
-            {
                 source: "mathnotes3.png",
-                caption: ""
-            },
-            {
-                source: "mathnotes4.png",
                 caption: ""
             },
             {
                 source: "mathnotes5.png",
                 caption: ""
-            },
-            {
-                source: "mathnotes6.png",
-                caption: ""
-            },
-            {
-                source: "mathnotes7.png",
-                caption: ""
-            },
-            {
-                source: "mathnotes8.png",
-                caption: ""
-            },
+            }
         ], 
         infoShort:"A website I built to easier distribute material in my work as an assistant at the Department of Mathematics, KTH. I usually make custom formula sheets for all my classes, and like to upload my notes afterwards, to make sure my students have the best possible conditions to understand and pass their exams. (You can read more about my work as a teaching assistant in the Math section.)",
         infoLong:"A website I built to easier distribute material in my work as an assistant at the Department of Mathematics, KTH. I usually make custom formula sheets for all my classes, and like to upload my notes afterwards, to make sure my students have the best possible conditions to understand and pass their exams. (You can read more about my work as a teaching assistant in the Math section.)",

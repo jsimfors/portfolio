@@ -9,23 +9,7 @@ const graphDesData =
             {
                 source: "sladdon.png",
                 caption: ""
-            },
-            {
-                source: "sladdon5.png",
-                caption: ""
-            },
-            {
-                source: "sladdon2.png",
-                caption: ""
-            },
-            {
-                source: "sladdon3.png",
-                caption: ""
-            },
-            {
-                source: "sladdon4.png",
-                caption: ""
-            },
+            }
             
         ],
         infoShort:<div>In this project I, together with my team, decided to dive deep into Stockholm's top travel app - SL, with the goal to find new design solutions for the new problems that have occurred due to corona. The project was centered around the question 
@@ -159,18 +143,6 @@ const graphDesData =
         title:"Sole Trader Company",
         subtitle: "Illustrating, photographing, graphic design and other creative processes.",
         images: [
-            {
-                source: "comicphoto.png",
-                caption: "One of my publisjed compis"
-            },
-            {
-                source: "insta.png",
-                caption: "My instagram feed"
-            },
-            {
-                source: "insta2.jpg",
-                caption: "more of my instagram feed"
-            },
             {
                 source: "comic3.png",
                 caption: "One of my comics - read them all at my insta @simforsspaning"
